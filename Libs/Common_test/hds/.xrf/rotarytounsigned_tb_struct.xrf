@@ -1,0 +1,117 @@
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 41,0 9 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 0,0 16 2 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 1,0 19 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+NO_GRAPHIC 19
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6098,0 24 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6464,0 25 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6090,0 26 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6456,0 27 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+NO_GRAPHIC 28
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+NO_GRAPHIC 29
+LIBRARY Common
+DESIGN rotary@to@unsigned
+VIEW rtl
+GRAPHIC 6518,0 31 0 
+DESIGN rotary@to@unsigned
+VIEW symbol.sb
+GRAPHIC 14,0 32 1 
+DESIGN rotary@to@unsigned
+VIEW symbol.sb
+GRAPHIC 118,0 38 0 
+DESIGN rotary@to@unsigned
+VIEW symbol.sb
+GRAPHIC 148,0 39 0 
+DESIGN rotary@to@unsigned
+VIEW symbol.sb
+GRAPHIC 108,0 40 0 
+DESIGN rotary@to@unsigned
+VIEW symbol.sb
+GRAPHIC 113,0 41 0 
+LIBRARY Common_test
+DESIGN rotary@to@unsigned_tester
+VIEW test
+GRAPHIC 377,0 44 0 
+DESIGN rotary@to@unsigned_tester
+VIEW interface
+GRAPHIC 14,0 45 1 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6466,0 50 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6100,0 51 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6092,0 52 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6458,0 53 0 
+LIBRARY Common_test
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+NO_GRAPHIC 56
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6518,0 59 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 377,0 60 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+NO_GRAPHIC 63
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+NO_GRAPHIC 65
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6518,0 67 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6525,0 68 1 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6100,0 74 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6092,0 75 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6466,0 76 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 6458,0 77 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 377,0 79 0 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+GRAPHIC 384,0 80 1 
+DESIGN rotary@to@unsigned_tb
+VIEW struct.bd
+NO_GRAPHIC 91

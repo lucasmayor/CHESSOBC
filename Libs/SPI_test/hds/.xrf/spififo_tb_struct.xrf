@@ -1,0 +1,273 @@
+DESIGN spi@fifo_tb
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 9,0 9 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 0,0 16 2 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1,0 19 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+NO_GRAPHIC 19
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 681,0 30 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1544,0 31 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 689,0 32 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 673,0 33 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 633,0 34 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 2162,0 35 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 713,0 36 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 665,0 37 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 657,0 38 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 625,0 39 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 697,0 40 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 705,0 41 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 649,0 42 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 641,0 43 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+NO_GRAPHIC 44
+DESIGN spi@fifo_tb
+VIEW struct.bd
+NO_GRAPHIC 45
+LIBRARY SPI
+DESIGN spi@fifo
+VIEW struct
+GRAPHIC 2152,0 47 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 14,0 48 1 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 203,0 57 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 368,0 58 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 173,0 59 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 431,0 60 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 178,0 61 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 426,0 62 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 193,0 63 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 198,0 64 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 375,0 65 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 208,0 66 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 168,0 67 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 910,0 68 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 963,0 69 0 
+LIBRARY SPI_test
+DESIGN spi@fifo_tester
+VIEW test
+GRAPHIC 175,0 72 0 
+DESIGN spi@fifo_tester
+VIEW interface
+GRAPHIC 14,0 73 1 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1061,0 79 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1053,0 80 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1069,0 81 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 2164,0 82 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 667,0 83 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1045,0 84 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 707,0 85 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 651,0 86 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 635,0 87 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 715,0 88 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 659,0 89 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 627,0 90 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 643,0 91 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1262,0 94 0 
+DESIGN spi@storage
+VIEW symbol.sb
+GRAPHIC 14,0 95 1 
+DESIGN spi@storage
+VIEW symbol.sb
+GRAPHIC 91,0 100 0 
+DESIGN spi@storage
+VIEW symbol.sb
+GRAPHIC 76,0 101 0 
+DESIGN spi@storage
+VIEW symbol.sb
+GRAPHIC 81,0 102 0 
+DESIGN spi@storage
+VIEW symbol.sb
+GRAPHIC 86,0 103 0 
+LIBRARY SPI_test
+DESIGN spi@fifo_tb
+VIEW struct.bd
+NO_GRAPHIC 106
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 2152,0 109 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 175,0 110 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1262,0 111 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+NO_GRAPHIC 114
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1458,0 117 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+NO_GRAPHIC 122
+DESIGN spi@fifo_tb
+VIEW struct.bd
+NO_GRAPHIC 123
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 2152,0 125 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 2159,0 126 1 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 643,0 135 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 707,0 136 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 635,0 137 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1538,0 138 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 627,0 139 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 691,0 140 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 651,0 141 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 667,0 142 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 715,0 143 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 659,0 144 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 699,0 145 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 2164,0 146 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 675,0 147 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 175,0 149 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 182,0 150 1 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1262,0 170 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 1269,0 171 1 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 675,0 176 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 683,0 177 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 691,0 178 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+GRAPHIC 699,0 179 0 
+DESIGN spi@fifo_tb
+VIEW struct.bd
+NO_GRAPHIC 182

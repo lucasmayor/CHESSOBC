@@ -1,0 +1,72 @@
+DESIGN @test
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 142,0 14 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 147,0 15 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 110,0 16 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 275,0 17 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 285,0 18 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 280,0 19 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 290,0 20 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 1,0 23 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 27
+DESIGN @test
+VIEW struct.bd
+GRAPHIC 41,0 36 0 
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 39
+DESIGN @test
+VIEW struct.bd
+GRAPHIC 0,0 41 2 
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 46
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 47
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 48
+DESIGN @test
+VIEW struct.bd
+GRAPHIC 182,0 51 0 
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 60
+DESIGN @test
+VIEW struct.bd
+GRAPHIC 326,0 61 0 
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 76
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 77
+DESIGN @test
+VIEW struct.bd
+NO_GRAPHIC 80

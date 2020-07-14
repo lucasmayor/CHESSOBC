@@ -1,0 +1,51 @@
+[Concat]
+Board = $HDS_PROJECT_DIR/../Board/concat
+OBC = $HDS_PROJECT_DIR/../OBC/concat
+[ModelSim]
+Board = $SCRATCH_DIR/Board
+Common = $SCRATCH_DIR/Common
+Common_test = $SCRATCH_DIR/Common_test
+Memory = $SCRATCH_DIR/Memory
+Memory_test = $SCRATCH_DIR/Memory_test
+OBC = $SCRATCH_DIR/OBC
+OBC_test = $SCRATCH_DIR/OBC_test
+RS232 = $SCRATCH_DIR/RS232
+RS232_test = $SCRATCH_DIR/RS232_test
+SPI = $SCRATCH_DIR/SPI
+SPI_test = $SCRATCH_DIR/SPI_test
+[hdl]
+Board = $HDS_PROJECT_DIR/../Board/hdl
+Common = $HEI_LIBS_DIR/Common/hdl
+Common_test = $HEI_LIBS_DIR/Common_test/hdl
+ieee = $HDS_HOME/hdl_libs/ieee/hdl
+Memory = $HEI_LIBS_DIR/Memory/hdl
+Memory_test = $HEI_LIBS_DIR/Memory_test/hdl
+OBC = $HDS_PROJECT_DIR/../OBC/hdl
+OBC_test = $HDS_PROJECT_DIR/../OBC_test/hdl
+RS232 = $HEI_LIBS_DIR/RS232/hdl
+RS232_test = $HEI_LIBS_DIR/RS232_test/hdl
+SPI = $HEI_LIBS_DIR/SPI/hdl
+SPI_test = $HEI_LIBS_DIR/SPI_test/hdl
+std = $HDS_HOME/hdl_libs/std/hdl
+[hds]
+Board = $HDS_PROJECT_DIR/../Board/hds
+Common = $HEI_LIBS_DIR/Common/hds
+Common_test = $HEI_LIBS_DIR/Common_test/hds
+ieee = $HDS_HOME/hdl_libs/ieee/hds
+Memory = $HEI_LIBS_DIR/Memory/hds
+Memory_test = $HEI_LIBS_DIR/Memory_test/hds
+OBC = $HDS_PROJECT_DIR/../OBC/hds
+OBC_test = $HDS_PROJECT_DIR/../OBC_test/hds
+RS232 = $HEI_LIBS_DIR/RS232/hds
+RS232_test = $HEI_LIBS_DIR/RS232_test/hds
+SPI = $HEI_LIBS_DIR/SPI/hds
+SPI_test = $HEI_LIBS_DIR/SPI_test/hds
+std = $HDS_HOME/hdl_libs/std/hds
+[hds_settings]
+design_root = .()
+[library_files_inclusion]
+[library_type]
+ieee = standard
+std = standard
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

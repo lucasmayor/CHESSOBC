@@ -1,0 +1,204 @@
+DESIGN obc_circuit
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN obc_circuit
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN obc_circuit
+VIEW symbol.sb
+GRAPHIC 52,0 14 0 
+DESIGN obc_circuit
+VIEW symbol.sb
+GRAPHIC 83,0 15 0 
+DESIGN obc_circuit
+VIEW symbol.sb
+GRAPHIC 464,0 16 0 
+DESIGN obc_circuit
+VIEW symbol.sb
+GRAPHIC 469,0 17 0 
+DESIGN obc_circuit
+VIEW symbol.sb
+GRAPHIC 474,0 18 0 
+DESIGN obc_circuit
+VIEW symbol.sb
+GRAPHIC 479,0 19 0 
+DESIGN obc_circuit
+VIEW symbol.sb
+GRAPHIC 405,0 20 0 
+DESIGN obc_circuit
+VIEW symbol.sb
+GRAPHIC 1,0 23 0 
+DESIGN obc_circuit
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+DESIGN obc_circuit
+VIEW struct.bd
+NO_GRAPHIC 27
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 84,0 36 0 
+DESIGN obc_circuit
+VIEW struct.bd
+NO_GRAPHIC 39
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 0,0 43 2 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 1,0 46 0 
+DESIGN obc_circuit
+VIEW struct.bd
+NO_GRAPHIC 46
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 895,0 52 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 49,0 53 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 893,0 54 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 897,0 55 0 
+DESIGN obc_circuit
+VIEW struct.bd
+NO_GRAPHIC 56
+DESIGN obc_circuit
+VIEW struct.bd
+NO_GRAPHIC 57
+LIBRARY Board
+DESIGN @d@f@f
+VIEW sim
+GRAPHIC 1071,0 59 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 57,0 61 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 63,0 62 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 51,0 63 0 
+DESIGN @d@f@f
+VIEW symbol.sb
+GRAPHIC 69,0 64 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 1817,0 67 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 16,0 69 0 
+DESIGN inverter@in
+VIEW symbol.sb
+GRAPHIC 22,0 70 0 
+LIBRARY OBC
+DESIGN @test
+VIEW struct
+GRAPHIC 2547,0 73 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 142,0 75 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 147,0 76 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 110,0 77 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 275,0 78 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 285,0 79 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 280,0 80 0 
+DESIGN @test
+VIEW symbol.sb
+GRAPHIC 290,0 81 0 
+LIBRARY Board
+DESIGN obc_circuit
+VIEW struct.bd
+NO_GRAPHIC 84
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 1071,0 87 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 2547,0 88 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 1817,0 89 0 
+DESIGN obc_circuit
+VIEW struct.bd
+NO_GRAPHIC 92
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 818,0 95 0 
+DESIGN obc_circuit
+VIEW struct.bd
+NO_GRAPHIC 97
+DESIGN obc_circuit
+VIEW struct.bd
+NO_GRAPHIC 98
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 1071,0 100 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 873,0 102 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 879,0 103 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 887,0 104 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 883,0 105 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 1817,0 107 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 43,0 109 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 879,0 110 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 1806,0 112 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 883,0 114 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 245,0 115 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 2547,0 117 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 15,0 119 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 245,0 120 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 435,0 121 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 2625,0 122 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 2631,0 123 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 2637,0 124 0 
+DESIGN obc_circuit
+VIEW struct.bd
+GRAPHIC 2643,0 125 0 
+DESIGN obc_circuit
+VIEW struct.bd
+NO_GRAPHIC 128
