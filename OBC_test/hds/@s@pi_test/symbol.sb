@@ -24,6 +24,7 @@ ldm (LogicalDM
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
+uid 53,0
 optionalChildren [
 *2 (RefLabelRowHdr
 )
@@ -63,6 +64,7 @@ tm "EolColHdrMgr"
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 66,0
 optionalChildren [
 *14 (Sheet
 sheetRow (SheetRow
@@ -86,22 +88,26 @@ litem &1
 pos 3
 dimension 20
 )
+uid 68,0
 optionalChildren [
 *16 (MRCItem
 litem &2
 pos 0
 dimension 20
+uid 69,0
 )
 *17 (MRCItem
 litem &3
 pos 1
 dimension 23
+uid 70,0
 )
 *18 (MRCItem
 litem &4
 pos 2
 hidden 1
 dimension 20
+uid 71,0
 )
 ]
 )
@@ -112,62 +118,74 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
+uid 72,0
 optionalChildren [
 *19 (MRCItem
 litem &5
 pos 0
 dimension 20
+uid 73,0
 )
 *20 (MRCItem
 litem &7
 pos 1
 dimension 50
+uid 74,0
 )
 *21 (MRCItem
 litem &8
 pos 2
 dimension 100
+uid 75,0
 )
 *22 (MRCItem
 litem &9
 pos 3
 dimension 50
+uid 76,0
 )
 *23 (MRCItem
 litem &10
 pos 4
 dimension 100
+uid 77,0
 )
 *24 (MRCItem
 litem &11
 pos 5
 dimension 100
+uid 78,0
 )
 *25 (MRCItem
 litem &12
 pos 6
 dimension 50
+uid 79,0
 )
 *26 (MRCItem
 litem &13
 pos 7
 dimension 80
+uid 80,0
 )
 ]
 )
 fixedCol 4
 fixedRow 2
 name "Ports"
+uid 67,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 52,0
 )
 genericsCommonDM (CommonDM
 ldm (LogicalDM
 emptyRow *27 (LEmptyRow
 )
+uid 82,0
 optionalChildren [
 *28 (RefLabelRowHdr
 )
@@ -204,6 +222,7 @@ tm "GenericEolColHdrMgr"
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
+uid 94,0
 optionalChildren [
 *39 (Sheet
 sheetRow (SheetRow
@@ -227,22 +246,26 @@ litem &27
 pos 3
 dimension 20
 )
+uid 96,0
 optionalChildren [
 *41 (MRCItem
 litem &28
 pos 0
 dimension 20
+uid 97,0
 )
 *42 (MRCItem
 litem &29
 pos 1
 dimension 23
+uid 98,0
 )
 *43 (MRCItem
 litem &30
 pos 2
 hidden 1
 dimension 20
+uid 99,0
 )
 ]
 )
@@ -253,52 +276,62 @@ fontColor "0,0,0"
 font "Tahoma,10,0"
 textAngle 90
 )
+uid 100,0
 optionalChildren [
 *44 (MRCItem
 litem &31
 pos 0
 dimension 20
+uid 101,0
 )
 *45 (MRCItem
 litem &33
 pos 1
 dimension 50
+uid 102,0
 )
 *46 (MRCItem
 litem &34
 pos 2
 dimension 100
+uid 103,0
 )
 *47 (MRCItem
 litem &35
 pos 3
 dimension 100
+uid 104,0
 )
 *48 (MRCItem
 litem &36
 pos 4
 dimension 50
+uid 105,0
 )
 *49 (MRCItem
 litem &37
 pos 5
 dimension 50
+uid 106,0
 )
 *50 (MRCItem
 litem &38
 pos 6
 dimension 80
+uid 107,0
 )
 ]
 )
 fixedCol 3
 fixedRow 2
 name "Ports"
+uid 95,0
 vaOverrides [
 ]
 )
 ]
 )
+uid 81,0
 type 1
 )
 VExpander (VariableExpander
@@ -349,19 +382,19 @@ value "C:\\work\\OBC\\Prefs\\..\\OBC_test\\hds\\SPi_test"
 )
 (vvPair
 variable "date"
-value "13.07.2020"
+value "14.07.2020"
 )
 (vvPair
 variable "day"
-value "lun."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "lundi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "13"
+value "14"
 )
 (vvPair
 variable "entity_name"
@@ -389,7 +422,7 @@ value "student"
 )
 (vvPair
 variable "graphical_source_date"
-value "13.07.2020"
+value "14.07.2020"
 )
 (vvPair
 variable "graphical_source_group"
@@ -401,7 +434,7 @@ value "DESKTOP-3I0F3HP"
 )
 (vvPair
 variable "graphical_source_time"
-value "13:05:55"
+value "14:58:28"
 )
 (vvPair
 variable "group"
@@ -460,6 +493,34 @@ variable "series"
 value "HDL Designer Series"
 )
 (vvPair
+variable "task_DesignCompilerPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_LeonardoPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_ModelSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_NC-SimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_PrecisionRTLPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_QuestaSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_VCSPath"
+value "<TBD>"
+)
+(vvPair
 variable "this_ext"
 value "sb"
 )
@@ -473,7 +534,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "13:05:55"
+value "14:58:28"
 )
 (vvPair
 variable "unit"
@@ -502,6 +563,7 @@ value "20"
 ]
 )
 LanguageMgr "Vhdl2008LangMgr"
+uid 51,0
 optionalChildren [
 *51 (SymbolBody
 uid 8,0
@@ -585,7 +647,6 @@ uid 20,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "31200,50000,41000,51000"
 st "
@@ -617,7 +678,6 @@ uid 23,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "48200,46000,51200,47000"
 st "
@@ -649,7 +709,6 @@ uid 26,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "31200,48000,41200,49000"
 st "
@@ -681,7 +740,6 @@ uid 29,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "27200,48000,29300,49000"
 st "
@@ -713,7 +771,6 @@ uid 32,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "48200,47200,57600,48200"
 st "
@@ -744,7 +801,6 @@ uid 35,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "52200,46000,53800,47000"
 st "
@@ -776,7 +832,7 @@ uid 38,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "32350,46400,42650,47600"
+xt "34000,46500,41000,47500"
 st "
 <company name>
 "
@@ -807,7 +863,6 @@ uid 41,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "27200,49000,29300,50000"
 st "
@@ -839,7 +894,6 @@ uid 44,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
 xt "27200,50000,29900,51000"
 st "
@@ -871,9 +925,8 @@ uid 47,0
 va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
-font "Arial,8,0"
 )
-xt "31200,49000,40200,50000"
+xt "31200,49000,41400,50000"
 st "
 %library/%unit/%view
 "
@@ -928,11 +981,10 @@ blo "0,1000"
 uid 50,0
 va (VaSet
 )
-xt "0,1200,17500,4800"
+xt "0,1200,11200,4200"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
-  USE ieee.numeric_std.all;
-"
+  USE ieee.numeric_std.all;"
 tm "PackageList"
 )
 ]
@@ -955,7 +1007,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,3200,1400"
+xt "200,200,2100,1200"
 st "
 Text
 "
@@ -1210,6 +1262,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 50,0
+lastUid 132,0
 activeModelName "Symbol:CDM"
 )

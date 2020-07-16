@@ -1,0 +1,54 @@
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 13,0 16 1 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 56,0 21 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 66,0 22 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 491,0 23 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 436,0 24 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 51,0 25 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 81,0 26 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 91,0 27 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 71,0 28 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 61,0 29 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 86,0 30 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 96,0 31 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 101,0 32 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 553,0 33 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 1,0 36 0 
+DESIGN spi@slave_shiftreg
+VIEW symbol.sb
+GRAPHIC 1,0 37 0 

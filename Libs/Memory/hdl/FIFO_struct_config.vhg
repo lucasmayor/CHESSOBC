@@ -1,0 +1,22 @@
+-- Generation properties:
+--   Format              : hierarchical
+--   Generic mappings    : exclude
+--   Leaf-level entities : direct binding
+--   Regular libraries   : use library name
+--   View name           : include
+--   
+LIBRARY Memory;
+CONFIGURATION FIFO_struct_config OF FIFO IS
+   FOR struct
+      FOR g0
+         FOR ALL : FIFO_oneRegister
+            USE ENTITY Memory.FIFO_oneRegister(oneRegister);
+         END FOR;
+      END FOR;
+      FOR g1
+         FOR ALL : FIFO_bram
+            USE ENTITY Memory.FIFO_bram(RTL);
+         END FOR;
+      END FOR;
+   END FOR;
+END FIFO_struct_config;

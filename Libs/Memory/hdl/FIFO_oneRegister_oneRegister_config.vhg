@@ -1,0 +1,4 @@
+CONFIGURATION FIFO_oneRegister_oneRegister_config OF FIFO_oneRegister IS
+   FOR oneRegister
+   END FOR;
+END FIFO_oneRegister_oneRegister_config;

@@ -1,0 +1,4 @@
+CONFIGURATION spiWrite_rtl_config OF spiWrite IS
+   FOR rtl
+   END FOR;
+END spiWrite_rtl_config;

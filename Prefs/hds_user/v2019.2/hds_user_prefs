@@ -206,8 +206,6 @@ win32DefaultEditor "Notepad"
 win32DefaultViewer "Notepad"
 unixDefaultEditor "Builtin"
 unixDefaultViewer "Builtin"
-defaultLanguage 11
-defaultVhdlDialect 11
 defaultVerilogDialect 5
 verilogSearchPath ""
 syscUserIncPath ""
@@ -219,6 +217,7 @@ vhdlArchitectureExtensions [
 "vhd"
 "vhdl"
 "vho"
+"vhg"
 ]
 verilogArchitectureExtensions [
 "v"
@@ -242,7 +241,6 @@ toolbarVisibility [
 "StdWindow:CommentGraphics"
 "FcWindow:CommentGraphics"
 "BdWindow:Appearance"
-"TabularWindow:Appearance"
 "SymbolWindow:Appearance"
 "AsmWindow:Appearance"
 "StdWindow:Appearance"
@@ -259,13 +257,10 @@ toolbarVisibility [
 "FcWindow:ArrangeObject"
 ]
 seperateElseBegincheck 1
-expertUser 0
 ASICDesigner 1
 FPGADesigner 1
 AlteraLibraries 1
 XilinxLibraries 1
-ActelLibraries 1
-LatticeLibraries 1
 userDefinedSimulatorTasks [
 ]
 userDefinedSynthesisTasks [
@@ -273,7 +268,6 @@ userDefinedSynthesisTasks [
 simulator "ModelSim 5.1"
 tempDirectory "$TEMP"
 projectPaths [
-"C:\\work\\OBC\\HDS\\my_project\\my_project.hdp"
 "C:\\work\\OBC\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir ""
@@ -441,10 +435,6 @@ mwVerilogUseBusSlicesChkBox 0
 vmCheckInDesc ""
 userVariables [
 (pair
-first "concat_file"
-second "obc"
-)
-(pair
 first "task_DesignCompilerPath"
 second ""
 )
@@ -473,34 +463,106 @@ first "task_VCSPath"
 second ""
 )
 ]
+defaultCategoryTemplates [
+1
+"architecture.vhd"
+2
+"entity.vhd"
+3
+"combined.vhd"
+]
+defaultCategoryTemplatesPrefs [
+1
+0
+2
+0
+3
+0
+]
 tasksOrder [
-"USER:ModelSim Compile"
-"USER:ModelSim Flow"
-"USER:ModelSim Simulate"
 "USER:Actel Project Manager"
 "USER:Concatenate HDL"
 "USER:DesignChecker"
 "USER:DesignChecker Flow"
+"USER:Generate"
+"USER:ModelSim Compile"
+"USER:ModelSim Flow"
+"USER:ModelSim Simulate"
 "USER:Prepare for Synthesis"
 "USER:Trim libraries"
-"USER:Generate"
+"USER:QuestaSim Compile"
+"USER:QuestaSim Simulate"
+"USER:Precision Synthesis"
+"USER:LeonardoSpectrum"
+"USER:Xilinx CORE Generator"
+"USER:Altera MegaWizard"
+"USER:Altera SOPC Builder"
+"USER:Xilinx Platform Studio"
+"USER:FPGA Technology Setup"
+"USER:FPGA Library Compile"
+"USER:Xilinx Synthesis Tool"
+"USER:Xilinx Place and Route"
+"USER:Xilinx Import"
+"USER:Quartus Synthesis"
+"USER:Quartus Place and Route"
+"USER:Quartus Programmer"
+"USER:Microsemi Libero"
+"USER:Lattice Place and Route"
+"USER:C/C++ Wrapper Generator"
+"USER:QuestaSim Flow"
+"USER:LeonardoSpectrum Flow"
+"USER:Precision Synthesis Flow"
+"USER:Xilinx Synthesis Tool Flow"
+"USER:Xilinx Vivado Flow"
+"USER:Quartus Synthesis Flow"
+"USER:I/O Design Flow"
 ]
 tasksToolbarOrder [
-"\"USER:ModelSim Flow\""
 "\"USER:DesignChecker Flow\""
+"\"USER:ModelSim Flow\""
 "USER:Generate"
+"\"USER:Precision Synthesis Flow\""
+"\"USER:QuestaSim Flow\""
 ]
 tasksMenubarOrder [
-"\"USER:ModelSim Flow\""
 "\"USER:DesignChecker Flow\""
+"\"USER:ModelSim Flow\""
 "USER:Generate"
+"\"USER:Precision Synthesis Flow\""
+"\"USER:QuestaSim Flow\""
 ]
 tasksShortcutbarOrder [
+"Setup DesignChecker"
+"\"USER:Altera MegaWizard\""
+"\"USER:Altera SOPC Builder\""
+"\"USER:C/C++ Wrapper Generator\""
+"\"USER:DesignChecker Flow\""
+"\"USER:FPGA Technology Setup\""
+"\"USER:I/O Design Flow\""
+"\"USER:Lattice Place and Route\""
+"\"USER:LeonardoSpectrum Flow\""
+"\"USER:Microsemi Libero\""
 "\"USER:ModelSim Compile\""
 "\"USER:ModelSim Flow\""
 "\"USER:ModelSim Simulate\""
-"\"USER:DesignChecker Flow\""
+"\"USER:Precision Synthesis Flow\""
+"\"USER:Precision Synthesis\""
+"\"USER:Quartus Place and Route\""
+"\"USER:Quartus Programmer\""
+"\"USER:Quartus Synthesis Flow\""
+"\"USER:Quartus Synthesis\""
+"\"USER:QuestaSim Compile\""
+"\"USER:QuestaSim Flow\""
+"\"USER:QuestaSim Simulate\""
+"\"USER:Xilinx CORE Generator\""
+"\"USER:Xilinx Import\""
+"\"USER:Xilinx Place and Route\""
+"\"USER:Xilinx Platform Studio\""
+"\"USER:Xilinx Synthesis Tool Flow\""
+"\"USER:Xilinx Synthesis Tool\""
+"\"USER:Xilinx Vivado Flow\""
 "USER:Generate"
+"USER:LeonardoSpectrum"
 ]
 taskPreferences [
 (TaskPref
@@ -913,106 +975,6 @@ second ""
 (pair
 first "hierLevel"
 second "1"
-)
-(pair
-first "onPulldownMenu"
-second ""
-)
-(pair
-first "onShortcutBar"
-second ""
-)
-(pair
-first "onToolbar"
-second ""
-)
-]
-)
-(TaskPref
-taskName "\"USER:Microsemi Libero Flow\""
-taskPrefStringMap [
-(pair
-first "enabled"
-second ""
-)
-(pair
-first "hierLevel"
-second "1"
-)
-(pair
-first "onPulldownMenu"
-second ""
-)
-(pair
-first "onShortcutBar"
-second ""
-)
-(pair
-first "onToolbar"
-second ""
-)
-]
-)
-(TaskPref
-taskName "\"USER:Microsemi Libero Flow\" \"USER:Microsemi Libero\""
-taskPrefStringMap [
-(pair
-first "enabled"
-second ""
-)
-(pair
-first "hierLevel"
-second "1"
-)
-(pair
-first "onPulldownMenu"
-second ""
-)
-(pair
-first "onShortcutBar"
-second ""
-)
-(pair
-first "onToolbar"
-second ""
-)
-]
-)
-(TaskPref
-taskName "\"USER:Microsemi Libero Flow\" USER:Generate"
-taskPrefStringMap [
-(pair
-first "enabled"
-second ""
-)
-(pair
-first "hierLevel"
-second "1"
-)
-(pair
-first "onPulldownMenu"
-second ""
-)
-(pair
-first "onShortcutBar"
-second ""
-)
-(pair
-first "onToolbar"
-second ""
-)
-]
-)
-(TaskPref
-taskName "\"USER:Microsemi Libero Import\""
-taskPrefStringMap [
-(pair
-first "enabled"
-second ""
-)
-(pair
-first "hierLevel"
-second "3"
 )
 (pair
 first "onPulldownMenu"
@@ -1479,31 +1441,6 @@ second ""
 ]
 )
 (TaskPref
-taskName "\"USER:Quartus Prime Import\""
-taskPrefStringMap [
-(pair
-first "enabled"
-second ""
-)
-(pair
-first "hierLevel"
-second "3"
-)
-(pair
-first "onPulldownMenu"
-second ""
-)
-(pair
-first "onShortcutBar"
-second ""
-)
-(pair
-first "onToolbar"
-second ""
-)
-]
-)
-(TaskPref
 taskName "\"USER:Quartus Programmer\""
 taskPrefStringMap [
 (pair
@@ -1871,31 +1808,6 @@ second ""
 (pair
 first "onShortcutBar"
 second "true"
-)
-(pair
-first "onToolbar"
-second ""
-)
-]
-)
-(TaskPref
-taskName "\"USER:Xilinx FPGA Configuration (iMPACT)\""
-taskPrefStringMap [
-(pair
-first "enabled"
-second ""
-)
-(pair
-first "hierLevel"
-second "3"
-)
-(pair
-first "onPulldownMenu"
-second ""
-)
-(pair
-first "onShortcutBar"
-second ""
 )
 (pair
 first "onToolbar"
@@ -2331,6 +2243,7 @@ second ""
 ]
 mwParamsVisibility (mwParamsVisibilityOptions
 )
+showExprBldrHint 0
 searchStrings [
 ]
 hdlWorkspaceLocation ""
@@ -2338,7 +2251,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "600x748-0+0"
+logWindowGeometry "600x759+271+46"
 diagramBrowserTabNo 0
 showContentFirstTime 0
 )
@@ -2358,9 +2271,11 @@ verilogSpecViewHeaderString "// Module %(library).%(unit).%(view)
 // ### Please start your Verilog code here ### 
 
 endmodule"
+vhdlGenExt "vhg"
 vhdlConfigsName "%(unit)_%(view)_config"
 vhdlConfigsFileNameTemplate "%(config)"
 vhdlConfigsNameTemplate "%(unit)_%(view)_config"
+separateEntity 1
 )
 (CompilationPreferences
 )
@@ -5218,11 +5133,54 @@ layoutExpression "V(H(A(C(DesignUnits)),A(C(Files))),H(A(C(DesignHierarchy)),A(C
 ]
 WorkTabs [
 (WorkTab
-name "my_project_lib"
-showingHierarchy 0
+name "Board"
 openLibs [
+"Board"
 ]
 declHierarchy [
+(DeclHierarchy
+libName "Board"
+primaryName "obc_circuit"
+secondaryName ""
+)
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "OBC_test"
+openLibs [
+"OBC_test"
+]
+declHierarchy [
+(DeclHierarchy
+libName "OBC_test"
+primaryName "SPi_test"
+secondaryName ""
+)
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "OBC"
+showingHierarchy 0
+openLibs [
+"OBC"
+]
+declHierarchy [
+]
+activeViewpointIdx 0
+)
+(WorkTab
+name "SPI"
+openLibs [
+"SPI"
+]
+declHierarchy [
+(DeclHierarchy
+libName "SPI"
+primaryName "spiFifo"
+secondaryName ""
+)
 ]
 activeViewpointIdx 0
 )
@@ -5240,22 +5198,14 @@ secondaryName ""
 ]
 activeViewpointIdx 0
 )
-(WorkTab
-name "Board"
-openLibs [
-"Board"
-]
-declHierarchy [
-(DeclHierarchy
-libName "Board"
-primaryName "obc_circuit"
-secondaryName ""
-)
-]
-activeViewpointIdx 0
-)
 ]
 ViewpointsOnOutlookBar [
+"Default Viewpoint"
+"Version Management"
+"HDL Files"
+"Logical Objects"
+"Requirements"
+"All Views"
 ]
 lastActiveViewpoint "Default Viewpoint"
 expandedTemplateNodes [
@@ -5270,15 +5220,24 @@ size 180
 )
 ]
 displayHierarchy 1
-xPos 0
-yPos 0
+xPos 100
+yPos 100
 width 1936
 height 926
 activeSidePanelTab 2
-activeLibraryTab 1
+activeLibraryTab 5
 sidePanelSize 280
 showUnixHiddenFiles 0
+componentBrowserXpos 493
+componentBrowserYpos 221
+componentBrowserWidth 583
+componentBrowserHeight 446
 componentBrowserLibraryNames [
+"Board"
+"OBC_test"
+"Gates"
+"SPI"
+"OBC"
 ]
 )
 (SmPreferences
@@ -5747,5 +5706,6 @@ font "Courier New,8,0"
 )
 order 0
 editSignalScope 4
+promptGenOrderIndicator 0
 )
 ]

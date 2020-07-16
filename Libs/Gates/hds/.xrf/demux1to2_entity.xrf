@@ -1,0 +1,27 @@
+DESIGN demux1to2
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN demux1to2
+VIEW symbol.sb
+GRAPHIC 142,0 8 0 
+DESIGN demux1to2
+VIEW symbol.sb
+GRAPHIC 16,0 14 1 
+DESIGN demux1to2
+VIEW symbol.sb
+GRAPHIC 75,0 18 0 
+DESIGN demux1to2
+VIEW symbol.sb
+GRAPHIC 88,0 19 0 
+DESIGN demux1to2
+VIEW symbol.sb
+GRAPHIC 51,0 20 0 
+DESIGN demux1to2
+VIEW symbol.sb
+GRAPHIC 57,0 21 0 
+DESIGN demux1to2
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+DESIGN demux1to2
+VIEW symbol.sb
+GRAPHIC 1,0 25 0 

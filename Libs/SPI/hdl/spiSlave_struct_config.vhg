@@ -1,0 +1,23 @@
+-- Generation properties:
+--   Format              : hierarchical
+--   Generic mappings    : exclude
+--   Leaf-level entities : direct binding
+--   Regular libraries   : use library name
+--   View name           : include
+--   
+LIBRARY Gates;
+LIBRARY SPI;
+LIBRARY Sequential;
+CONFIGURATION spiSlave_struct_config OF spiSlave IS
+   FOR struct
+      FOR ALL : DFF
+         USE ENTITY Sequential.DFF(sim);
+      END FOR;
+      FOR ALL : and2inv1
+         USE ENTITY Gates.and2inv1(sim);
+      END FOR;
+      FOR ALL : spiSlave_shiftreg
+         USE ENTITY SPI.spiSlave_shiftreg(fsm);
+      END FOR;
+   END FOR;
+END spiSlave_struct_config;

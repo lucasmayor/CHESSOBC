@@ -1,0 +1,4 @@
+CONFIGURATION FIFO_bram_RTL_config OF FIFO_bram IS
+   FOR RTL
+   END FOR;
+END FIFO_bram_RTL_config;

@@ -1,0 +1,4 @@
+CONFIGURATION and2inv1_sim_config OF and2inv1 IS
+   FOR sim
+   END FOR;
+END and2inv1_sim_config;

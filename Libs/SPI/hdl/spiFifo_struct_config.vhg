@@ -1,0 +1,25 @@
+-- Generation properties:
+--   Format              : hierarchical
+--   Generic mappings    : exclude
+--   Leaf-level entities : direct binding
+--   Regular libraries   : use library name
+--   View name           : include
+--   
+LIBRARY Memory;
+LIBRARY SPI;
+CONFIGURATION spiFifo_struct_config OF spiFifo IS
+   FOR struct
+      FOR ALL : FIFO
+         USE CONFIGURATION Memory.FIFO_struct_config;
+      END FOR;
+      FOR ALL : spiTimer
+         USE ENTITY SPI.spiTimer(RTL);
+      END FOR;
+      FOR ALL : spiTransceiver
+         USE ENTITY SPI.spiTransceiver(RTL);
+      END FOR;
+      FOR ALL : spiWrite
+         USE ENTITY SPI.spiWrite(rtl);
+      END FOR;
+   END FOR;
+END spiFifo_struct_config;

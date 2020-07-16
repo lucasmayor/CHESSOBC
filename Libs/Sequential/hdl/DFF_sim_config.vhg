@@ -1,0 +1,4 @@
+CONFIGURATION DFF_sim_config OF DFF IS
+   FOR sim
+   END FOR;
+END DFF_sim_config;

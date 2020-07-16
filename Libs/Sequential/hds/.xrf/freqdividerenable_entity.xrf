@@ -1,0 +1,27 @@
+DESIGN freq@divider@enable
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN freq@divider@enable
+VIEW symbol.sb
+GRAPHIC 185,0 8 0 
+DESIGN freq@divider@enable
+VIEW symbol.sb
+GRAPHIC 13,0 15 1 
+DESIGN freq@divider@enable
+VIEW symbol.sb
+GRAPHIC 112,0 20 0 
+DESIGN freq@divider@enable
+VIEW symbol.sb
+GRAPHIC 367,0 21 0 
+DESIGN freq@divider@enable
+VIEW symbol.sb
+GRAPHIC 122,0 22 0 
+DESIGN freq@divider@enable
+VIEW symbol.sb
+GRAPHIC 117,0 23 0 
+DESIGN freq@divider@enable
+VIEW symbol.sb
+GRAPHIC 1,0 26 0 
+DESIGN freq@divider@enable
+VIEW symbol.sb
+GRAPHIC 1,0 27 0 

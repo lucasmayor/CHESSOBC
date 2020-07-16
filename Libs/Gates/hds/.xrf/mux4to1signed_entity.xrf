@@ -1,0 +1,33 @@
+DESIGN mux4to1@signed
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN mux4to1@signed
+VIEW symbol.sb
+GRAPHIC 137,0 8 0 
+DESIGN mux4to1@signed
+VIEW symbol.sb
+GRAPHIC 16,0 15 1 
+DESIGN mux4to1@signed
+VIEW symbol.sb
+GRAPHIC 51,0 20 0 
+DESIGN mux4to1@signed
+VIEW symbol.sb
+GRAPHIC 138,0 21 0 
+DESIGN mux4to1@signed
+VIEW symbol.sb
+GRAPHIC 292,0 22 0 
+DESIGN mux4to1@signed
+VIEW symbol.sb
+GRAPHIC 297,0 23 0 
+DESIGN mux4to1@signed
+VIEW symbol.sb
+GRAPHIC 88,0 24 0 
+DESIGN mux4to1@signed
+VIEW symbol.sb
+GRAPHIC 75,0 25 0 
+DESIGN mux4to1@signed
+VIEW symbol.sb
+GRAPHIC 1,0 28 0 
+DESIGN mux4to1@signed
+VIEW symbol.sb
+GRAPHIC 1,0 29 0 

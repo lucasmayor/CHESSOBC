@@ -118,23 +118,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI_test\\hdl"
+value "C:\\work\\OBC\\libs\\SPI_test\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI_test\\hds"
+value "C:\\work\\OBC\\libs\\SPI_test\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI_test\\hds\\spi@fifo_tb\\struct.bd.info"
+value "C:\\work\\OBC\\libs\\SPI_test\\hds\\spi@fifo_tb\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI_test\\hds\\spi@fifo_tb\\struct.bd.user"
+value "C:\\work\\OBC\\libs\\SPI_test\\hds\\spi@fifo_tb\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI_test\\hds"
+value "C:\\work\\OBC\\libs\\SPI_test\\hds"
 )
 (vvPair
 variable "appl"
@@ -154,27 +154,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI_test\\hds\\spi@fifo_tb"
+value "C:\\work\\OBC\\libs\\SPI_test\\hds\\spi@fifo_tb"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI_test\\hds\\spiFifo_tb"
+value "C:\\work\\OBC\\libs\\SPI_test\\hds\\spiFifo_tb"
 )
 (vvPair
 variable "date"
-value "11.11.2019"
+value "15.07.2020"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "11"
+value "15"
 )
 (vvPair
 variable "designName"
@@ -202,11 +202,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "silvan.zahno"
+value "student"
 )
 (vvPair
 variable "graphical_source_date"
-value "11.11.2019"
+value "15.07.2020"
 )
 (vvPair
 variable "graphical_source_group"
@@ -214,11 +214,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE6996"
+value "DESKTOP-3I0F3HP"
 )
 (vvPair
 variable "graphical_source_time"
-value "07:39:46"
+value "09:11:49"
 )
 (vvPair
 variable "group"
@@ -226,7 +226,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE6996"
+value "DESKTOP-3I0F3HP"
 )
 (vvPair
 variable "language"
@@ -238,11 +238,11 @@ value "SPI_test"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/ElN/Libraries/SPI_test/work"
+value "$SCRATCH_DIR/SPI_test"
 )
 (vvPair
 variable "mm"
-value "11"
+value "07"
 )
 (vvPair
 variable "module_name"
@@ -250,19 +250,19 @@ value "spiFifo_tb"
 )
 (vvPair
 variable "month"
-value "Nov"
+value "juil."
 )
 (vvPair
 variable "month_long"
-value "November"
+value "juillet"
 )
 (vvPair
 variable "p"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI_test\\hds\\spi@fifo_tb\\struct.bd"
+value "C:\\work\\OBC\\libs\\SPI_test\\hds\\spi@fifo_tb\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI_test\\hds\\spiFifo_tb\\struct.bd"
+value "C:\\work\\OBC\\libs\\SPI_test\\hds\\spiFifo_tb\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -306,10 +306,14 @@ value "<TBD>"
 )
 (vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "<TBD>"
 )
 (vvPair
 variable "task_NC"
+value "<TBD>"
+)
+(vvPair
+variable "task_NC-SimPath"
 value "<TBD>"
 )
 (vvPair
@@ -338,7 +342,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "07:39:46"
+value "09:11:49"
 )
 (vvPair
 variable "unit"
@@ -346,7 +350,7 @@ value "spiFifo_tb"
 )
 (vvPair
 variable "user"
-value "silvan.zahno"
+value "student"
 )
 (vvPair
 variable "version"
@@ -358,11 +362,11 @@ value "struct"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2020"
 )
 (vvPair
 variable "yy"
-value "19"
+value "20"
 )
 ]
 )
@@ -390,7 +394,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "78200,58400,93600,59600"
+xt "78200,58500,88400,59500"
 st "
 <enter project name here>
 "
@@ -451,7 +455,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "51200,64400,69600,65600"
+xt "51200,64500,63000,65500"
 st "
 by %user on %dd %month %year
 "
@@ -481,7 +485,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "72200,58400,76900,59600"
+xt "72200,58500,75200,59500"
 st "
 Project:
 "
@@ -511,7 +515,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "51200,60400,66400,61600"
+xt "51200,60500,61200,61500"
 st "
 <enter diagram title here>
 "
@@ -541,7 +545,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "46200,60400,49600,61600"
+xt "46200,60500,48300,61500"
 st "
 Title:
 "
@@ -571,7 +575,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "46200,62400,49600,63600"
+xt "46200,62500,48300,63500"
 st "
 Path:
 "
@@ -601,7 +605,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "72200,60200,86300,61400"
+xt "72200,60200,81600,61200"
 st "
 <enter comments here>
 "
@@ -630,7 +634,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "51200,62400,61100,63600"
+xt "51200,62500,57800,63500"
 st "
 
 %library/%unit/%view
@@ -662,7 +666,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "46200,64400,50500,65600"
+xt "46200,64500,48900,65500"
 st "
 Edited:
 "
@@ -800,7 +804,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,24400,19000,25200"
-st "SIGNAL reset       : std_ulogic"
+st "SIGNAL reset       : std_ulogic
+"
 )
 )
 *17 (Net
@@ -817,7 +822,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,20400,19000,21200"
-st "SIGNAL clock       : std_ulogic"
+st "SIGNAL clock       : std_ulogic
+"
 )
 )
 *18 (Net
@@ -834,7 +840,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,27600,19000,28400"
-st "SIGNAL slaveRd     : std_ulogic"
+st "SIGNAL slaveRd     : std_ulogic
+"
 )
 )
 *19 (Net
@@ -851,7 +858,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,26800,19000,27600"
-st "SIGNAL slaveEmpty  : std_ulogic"
+st "SIGNAL slaveEmpty  : std_ulogic
+"
 )
 )
 *20 (Net
@@ -868,7 +876,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,23600,19000,24400"
-st "SIGNAL masterWr    : std_ulogic"
+st "SIGNAL masterWr    : std_ulogic
+"
 )
 )
 *21 (Net
@@ -885,7 +894,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,22800,19000,23600"
-st "SIGNAL masterFull  : std_ulogic"
+st "SIGNAL masterFull  : std_ulogic
+"
 )
 )
 *22 (Net
@@ -902,7 +912,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,19600,19000,20400"
-st "SIGNAL SS_n        : std_ulogic"
+st "SIGNAL SS_n        : std_ulogic
+"
 )
 )
 *23 (Net
@@ -919,7 +930,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,17200,18500,18000"
-st "SIGNAL MISO        : std_logic"
+st "SIGNAL MISO        : std_logic
+"
 )
 )
 *24 (Net
@@ -936,7 +948,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,18800,19000,19600"
-st "SIGNAL MOSI        : std_ulogic"
+st "SIGNAL MOSI        : std_ulogic
+"
 )
 )
 *25 (Net
@@ -953,7 +966,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,25200,19000,26000"
-st "SIGNAL sClk        : std_ulogic"
+st "SIGNAL sClk        : std_ulogic
+"
 )
 )
 *26 (Net
@@ -971,7 +985,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,26000,35500,26800"
-st "SIGNAL slaveData   : std_ulogic_vector(spiDataBitNb-1 DOWNTO 0)"
+st "SIGNAL slaveData   : std_ulogic_vector(spiDataBitNb-1 DOWNTO 0)
+"
 )
 )
 *27 (Net
@@ -989,7 +1004,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,22000,35500,22800"
-st "SIGNAL masterData  : std_ulogic_vector(spiDataBitNb-1 DOWNTO 0)"
+st "SIGNAL masterData  : std_ulogic_vector(spiDataBitNb-1 DOWNTO 0)
+"
 )
 )
 *28 (SaComponent
@@ -1253,7 +1269,7 @@ text (MLText
 uid 1467,0
 va (VaSet
 )
-xt "62200,1200,77900,7200"
+xt "62200,1200,73400,5200"
 st "
 MISO <= 'Z' when SS_n = '0'
   else '0';
@@ -1334,7 +1350,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,18000,19000,18800"
-st "SIGNAL MISOu       : std_ulogic"
+st "SIGNAL MISOu       : std_ulogic
+"
 )
 )
 *41 (SaComponent
@@ -1931,7 +1948,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,21200,18500,22000"
-st "SIGNAL endTransfer : std_logic"
+st "SIGNAL endTransfer : std_logic
+"
 )
 )
 *59 (Wire
@@ -2696,7 +2714,7 @@ blo "0,800"
 uid 11,0
 va (VaSet
 )
-xt "0,1000,17500,4600"
+xt "0,1000,11200,4000"
 st "LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;"
@@ -2733,7 +2751,7 @@ uid 15,0
 va (VaSet
 isHidden 1
 )
-xt "20000,2000,32100,4400"
+xt "20000,2000,27600,4000"
 st "`resetall
 `timescale 1ns/10ps"
 tm "BdCompilerDirectivesTextMgr"
@@ -2777,8 +2795,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "57,0,1681,1050"
-viewArea "800,-1750,71000,44800"
+windowSize "57,0,1682,950"
+viewArea "-1290,2545,75545,46215"
 cachedDiagramExtent "0,0,97000,66000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -2800,7 +2818,7 @@ boundaryWidth 0
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 2436,0
+lastUid 2489,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -2815,7 +2833,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,3200,1400"
+xt "200,200,2100,1200"
 st "
 Text
 "
@@ -3261,7 +3279,7 @@ xt "0,0,18000,5000"
 text (MLText
 va (VaSet
 )
-xt "200,200,3200,1400"
+xt "200,200,2100,1200"
 st "
 Text
 "
@@ -3551,7 +3569,7 @@ tm "BundleNameMgr"
 second (MLText
 va (VaSet
 )
-xt "0,1000,1500,2200"
+xt "0,1000,1000,2000"
 st "()"
 tm "BundleContentsMgr"
 )
@@ -3599,7 +3617,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1100,18500,100"
+xt "0,-1100,12500,-100"
 st "g0: FOR i IN 0 TO n GENERATE"
 tm "FrameTitleTextMgr"
 )
@@ -3659,7 +3677,7 @@ ps "TopLeftStrategy"
 text (MLText
 va (VaSet
 )
-xt "0,-1100,11000,100"
+xt "0,-1100,7300,-100"
 st "b0: BLOCK (guard)"
 tm "FrameTitleTextMgr"
 )
@@ -3803,9 +3821,9 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,9000,23000,16200"
-st "constant cPol: std_ulogic := '0';
+st "--constant cPol: std_ulogic := '0';
 --constant cPHa: std_ulogic := '0';
---constant cPol: std_ulogic := '1';
+constant cPol: std_ulogic := '1';
 constant cPHa: std_ulogic := '1';
 
 constant spiDataBitNb: positive := 8;

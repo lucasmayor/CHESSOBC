@@ -1,9 +1,11 @@
 [LexParser]
 [Editor]
 mark.lineImage=yellowball
-recentFile0=C:/work/OBC/Prefs/../Board/hdl/inverter_sim.vhd
+recentFile0=C:/work/OBC/Prefs/../OBC_test/hdl/test_SPI_tester.vhd
 lastFilter=.vhd
-recentFile1=C:/work/OBC/Prefs/../Board/hdl/DFF_sim.vhd
+recentFile1=C:/work/OBC/OBC_test/hdl/spi_test_struct.vhg
+recentFile2=C:/work/OBC/OBC_test/hdl/test_entity.vhg
+recentFile3=C:/Users/student/AppData/Local/Temp/renoir_text3/OBC_Test_struct_EBText0.vhd
 [Printer]
 [ToolbarFrames]
 geom0Group1=top H
@@ -43,7 +45,7 @@ MatchCase=0
 LookInSubfolders=0
 historyMax=4
 [Geometry]
-TopWindow0=950x700+0+0
+TopWindow0=950x700+639+64
 FrameSupp0,0=165
 [VDiff]
 [R72]

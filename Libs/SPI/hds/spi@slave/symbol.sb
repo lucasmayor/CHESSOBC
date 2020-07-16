@@ -433,7 +433,7 @@ tm "GenericEolColHdrMgr"
 generic (GiElement
 name "spi_CPHA"
 type "integer range 0 to 1"
-value "1"
+value "0"
 )
 uid 142,0
 )
@@ -441,7 +441,7 @@ uid 142,0
 generic (GiElement
 name "spi_CPOL"
 type "integer range 0 to 1"
-value "1"
+value "0"
 )
 uid 144,0
 )
@@ -593,23 +593,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI\\hdl"
+value "C:\\work\\OBC\\libs\\SPI\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI\\hds"
+value "C:\\work\\OBC\\libs\\SPI\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI\\hds\\spi@slave\\symbol.sb.info"
+value "C:\\work\\OBC\\libs\\SPI\\hds\\spi@slave\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI\\hds\\spi@slave\\symbol.sb.user"
+value "C:\\work\\OBC\\libs\\SPI\\hds\\spi@slave\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI\\hds"
+value "C:\\work\\OBC\\libs\\SPI\\hds"
 )
 (vvPair
 variable "appl"
@@ -629,27 +629,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI\\hds\\spi@slave"
+value "C:\\work\\OBC\\libs\\SPI\\hds\\spi@slave"
 )
 (vvPair
 variable "d_logical"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI\\hds\\spiSlave"
+value "C:\\work\\OBC\\libs\\SPI\\hds\\spiSlave"
 )
 (vvPair
 variable "date"
-value "11.11.2019"
+value "14.07.2020"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "11"
+value "14"
 )
 (vvPair
 variable "designName"
@@ -677,11 +677,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "silvan.zahno"
+value "student"
 )
 (vvPair
 variable "graphical_source_date"
-value "11.11.2019"
+value "14.07.2020"
 )
 (vvPair
 variable "graphical_source_group"
@@ -689,11 +689,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "WE6996"
+value "DESKTOP-3I0F3HP"
 )
 (vvPair
 variable "graphical_source_time"
-value "07:39:39"
+value "15:31:32"
 )
 (vvPair
 variable "group"
@@ -701,7 +701,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "WE6996"
+value "DESKTOP-3I0F3HP"
 )
 (vvPair
 variable "language"
@@ -713,11 +713,11 @@ value "SPI"
 )
 (vvPair
 variable "library_downstream_ModelSimCompiler"
-value "$SCRATCH_DIR/ElN/Libraries/SPI/work"
+value "$SCRATCH_DIR/SPI"
 )
 (vvPair
 variable "mm"
-value "11"
+value "07"
 )
 (vvPair
 variable "module_name"
@@ -725,19 +725,19 @@ value "spiSlave"
 )
 (vvPair
 variable "month"
-value "Nov"
+value "juil."
 )
 (vvPair
 variable "month_long"
-value "November"
+value "juillet"
 )
 (vvPair
 variable "p"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI\\hds\\spi@slave\\symbol.sb"
+value "C:\\work\\OBC\\libs\\SPI\\hds\\spi@slave\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\work\\git\\Education\\eln\\labo\\solution\\eln_labs\\Libs\\SPI\\hds\\spiSlave\\symbol.sb"
+value "C:\\work\\OBC\\libs\\SPI\\hds\\spiSlave\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -752,6 +752,10 @@ variable "series"
 value "HDL Designer Series"
 )
 (vvPair
+variable "task_DesignCompilerPath"
+value "<TBD>"
+)
+(vvPair
 variable "task_HDSPath"
 value "$HDS_HOME"
 )
@@ -764,8 +768,28 @@ variable "task_ISEPath"
 value "$SCRATCH_DIR\\$DESIGN_NAME\\$ISE_WORK_DIR"
 )
 (vvPair
+variable "task_LeonardoPath"
+value "<TBD>"
+)
+(vvPair
 variable "task_ModelSimPath"
-value "$MODELSIM_HOME\\win32"
+value "<TBD>"
+)
+(vvPair
+variable "task_NC-SimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_PrecisionRTLPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_QuestaSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_VCSPath"
+value "<TBD>"
 )
 (vvPair
 variable "this_ext"
@@ -781,7 +805,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "07:39:39"
+value "15:31:32"
 )
 (vvPair
 variable "unit"
@@ -789,7 +813,7 @@ value "spiSlave"
 )
 (vvPair
 variable "user"
-value "silvan.zahno"
+value "student"
 )
 (vvPair
 variable "version"
@@ -801,11 +825,11 @@ value "symbol"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2020"
 )
 (vvPair
 variable "yy"
-value "19"
+value "20"
 )
 ]
 )
@@ -1391,8 +1415,8 @@ font "Courier New,8,0"
 xt "15000,2000,47000,6000"
 st "Generic Declarations
 
-spi_CPHA  integer range 0 to 1         1                    
-spi_CPOL  integer range 0 to 1         1                    
+spi_CPHA  integer range 0 to 1         0                    
+spi_CPOL  integer range 0 to 1         0                    
 spi_wbits integer range 1 to (2**16)-1 8 --size of spi word 
 "
 )
@@ -1403,12 +1427,12 @@ elements [
 (GiElement
 name "spi_CPHA"
 type "integer range 0 to 1"
-value "1"
+value "0"
 )
 (GiElement
 name "spi_CPOL"
 type "integer range 0 to 1"
-value "1"
+value "0"
 )
 (GiElement
 name "spi_wbits"
@@ -1447,7 +1471,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,48500,36200,48500"
+xt "36200,48000,48000,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1478,7 +1502,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,44500,53200,44500"
+xt "53200,44000,56200,45000"
 st "
 Project:
 "
@@ -1509,7 +1533,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,46500,36200,46500"
+xt "36200,46000,46200,47000"
 st "
 <enter diagram title here>
 "
@@ -1540,7 +1564,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,46500,32200,46500"
+xt "32200,46000,34300,47000"
 st "
 Title:
 "
@@ -1571,7 +1595,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "53200,45200,67300,46400"
+xt "53200,45200,62600,46200"
 st "
 <enter comments here>
 "
@@ -1601,7 +1625,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "57200,44500,57200,44500"
+xt "57200,44000,58800,45000"
 st "
 %project_name
 "
@@ -1631,7 +1655,7 @@ uid 38,0
 va (VaSet
 fg "32768,0,0"
 )
-xt "37350,44400,47650,45600"
+xt "39000,44500,46000,45500"
 st "
 <company name>
 "
@@ -1663,7 +1687,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,47500,32200,47500"
+xt "32200,47000,34300,48000"
 st "
 Path:
 "
@@ -1694,7 +1718,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "32200,48500,32200,48500"
+xt "32200,48000,34900,49000"
 st "
 Edited:
 "
@@ -1725,7 +1749,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "36200,47500,36200,47500"
+xt "36200,47000,44000,48000"
 st "
 %library/%unit/%view
 "
@@ -1780,7 +1804,7 @@ blo "0,800"
 uid 50,0
 va (VaSet
 )
-xt "0,1000,16900,4600"
+xt "0,1000,10800,4000"
 st "LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.numeric_std.all;"
@@ -1807,7 +1831,7 @@ text (MLText
 va (VaSet
 fg "0,0,32768"
 )
-xt "200,200,3200,1400"
+xt "200,200,2100,1200"
 st "
 Text
 "
@@ -2062,7 +2086,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 2288,0
+lastUid 2311,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

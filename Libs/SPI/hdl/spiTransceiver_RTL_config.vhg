@@ -1,0 +1,4 @@
+CONFIGURATION spiTransceiver_RTL_config OF spiTransceiver IS
+   FOR RTL
+   END FOR;
+END spiTransceiver_RTL_config;

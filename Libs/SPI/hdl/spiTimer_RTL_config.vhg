@@ -1,0 +1,4 @@
+CONFIGURATION spiTimer_RTL_config OF spiTimer IS
+   FOR RTL
+   END FOR;
+END spiTimer_RTL_config;

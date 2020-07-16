@@ -13,6 +13,8 @@ RS232 = $SCRATCH_DIR/RS232
 RS232_test = $SCRATCH_DIR/RS232_test
 SPI = $SCRATCH_DIR/SPI
 SPI_test = $SCRATCH_DIR/SPI_test
+Gates = $SCRATCH_DIR/Gates
+Sequential = $SCRATCH_DIR/Sequential
 [hdl]
 Board = $HDS_PROJECT_DIR/../Board/hdl
 Common = $HEI_LIBS_DIR/Common/hdl
@@ -26,6 +28,8 @@ RS232 = $HEI_LIBS_DIR/RS232/hdl
 RS232_test = $HEI_LIBS_DIR/RS232_test/hdl
 SPI = $HEI_LIBS_DIR/SPI/hdl
 SPI_test = $HEI_LIBS_DIR/SPI_test/hdl
+Gates = $HEI_LIBS_DIR/Gates/hdl
+Sequential = $HEI_LIBS_DIR/Sequential/hdl
 std = $HDS_HOME/hdl_libs/std/hdl
 [hds]
 Board = $HDS_PROJECT_DIR/../Board/hds
@@ -40,6 +44,8 @@ RS232 = $HEI_LIBS_DIR/RS232/hds
 RS232_test = $HEI_LIBS_DIR/RS232_test/hds
 SPI = $HEI_LIBS_DIR/SPI/hds
 SPI_test = $HEI_LIBS_DIR/SPI_test/hds
+Gates = $HEI_LIBS_DIR/Gates/hds
+Sequential = $HEI_LIBS_DIR/Sequential/hds
 std = $HDS_HOME/hdl_libs/std/hds
 [hds_settings]
 design_root = .()

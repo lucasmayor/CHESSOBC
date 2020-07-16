@@ -36,6 +36,13 @@ bitmap ""
 hasBitmap 1
 tooltip ""
 taskSettings [
+"InternalTaskSetting"
+(SettingsMap
+settingsMap [
+"forceGui"
+"NO_FORCE"
+]
+)
 ]
 PreferedTasks [
 ]
