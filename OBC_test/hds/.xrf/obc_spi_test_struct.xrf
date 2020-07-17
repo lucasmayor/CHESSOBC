@@ -1,0 +1,277 @@
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 41,0 9 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+NO_GRAPHIC 12
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 0,0 17 2 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 1,0 20 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+NO_GRAPHIC 20
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 538,0 23 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 359,0 24 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 632,0 25 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 624,0 26 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 640,0 27 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 725,0 28 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 357,0 29 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 592,0 30 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 544,0 31 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 552,0 32 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 560,0 33 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 371,0 34 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 608,0 35 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 568,0 36 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 576,0 37 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 584,0 38 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+NO_GRAPHIC 39
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+NO_GRAPHIC 40
+LIBRARY OBC
+DESIGN @s@p@i_@slave@select
+VIEW @slave@selector
+GRAPHIC 237,0 42 0 
+DESIGN @s@p@i_@slave@select
+VIEW symbol.sb
+GRAPHIC 59,0 44 0 
+DESIGN @s@p@i_@slave@select
+VIEW symbol.sb
+GRAPHIC 81,0 45 0 
+DESIGN @s@p@i_@slave@select
+VIEW symbol.sb
+GRAPHIC 64,0 46 0 
+DESIGN @s@p@i_@slave@select
+VIEW symbol.sb
+GRAPHIC 69,0 47 0 
+DESIGN @s@p@i_@slave@select
+VIEW symbol.sb
+GRAPHIC 74,0 48 0 
+LIBRARY OBC_test
+DESIGN @o@b@c_@s@p@i_@t@b
+VIEW test
+GRAPHIC 391,0 51 0 
+DESIGN @o@b@c_@s@p@i_@t@b
+VIEW interface
+GRAPHIC 14,0 52 1 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 634,0 56 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 626,0 57 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 642,0 58 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 594,0 59 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 554,0 60 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 610,0 61 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 570,0 62 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 578,0 63 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 727,0 64 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 289,0 65 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 546,0 66 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 562,0 67 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 295,0 68 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 586,0 69 0 
+LIBRARY SPI
+DESIGN spi@fifo
+VIEW struct
+GRAPHIC 151,0 72 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 14,0 73 1 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 203,0 82 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 368,0 83 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 173,0 84 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 431,0 85 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 178,0 86 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 426,0 87 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 193,0 88 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 198,0 89 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 375,0 90 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 208,0 91 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 168,0 92 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 910,0 93 0 
+DESIGN spi@fifo
+VIEW symbol.sb
+GRAPHIC 963,0 94 0 
+LIBRARY OBC_test
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+NO_GRAPHIC 97
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 391,0 100 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 237,0 101 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 151,0 102 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+NO_GRAPHIC 105
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+NO_GRAPHIC 107
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 237,0 109 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 305,0 111 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 727,0 112 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 634,0 113 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 626,0 114 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 642,0 115 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 391,0 117 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 398,0 118 1 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 151,0 137 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 158,0 138 1 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 586,0 147 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 570,0 148 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 289,0 149 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 540,0 150 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 295,0 151 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 540,0 152 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 578,0 153 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 554,0 154 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 546,0 155 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 562,0 156 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 610,0 157 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 594,0 158 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+GRAPHIC 305,0 159 0 
+DESIGN @o@b@c_@s@p@i_test
+VIEW struct.bd
+NO_GRAPHIC 162

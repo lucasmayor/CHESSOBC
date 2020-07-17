@@ -166,7 +166,7 @@ mwi 0
 uid 859,0
 )
 (Instance
-name "SPI3_Master1"
+name "SPI40_Master"
 duLibraryName "SPI"
 duName "spiFifo"
 elements [
@@ -270,19 +270,19 @@ value "C:\\work\\OBC\\Prefs\\..\\OBC\\hds\\SPI_Control"
 )
 (vvPair
 variable "date"
-value "16.07.2020"
+value "17.07.2020"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "16"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -310,7 +310,7 @@ value "student"
 )
 (vvPair
 variable "graphical_source_date"
-value "16.07.2020"
+value "17.07.2020"
 )
 (vvPair
 variable "graphical_source_group"
@@ -322,7 +322,7 @@ value "DESKTOP-3I0F3HP"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:58:14"
+value "15:12:05"
 )
 (vvPair
 variable "group"
@@ -426,7 +426,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "08:58:14"
+value "15:12:05"
 )
 (vvPair
 variable "unit"
@@ -1425,8 +1425,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,88600,500,89400"
-st "clock            : std_logic
-"
+st "clock            : std_logic"
 )
 )
 *31 (PortIoIn
@@ -1489,8 +1488,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,89400,500,90200"
-st "reset            : std_logic
-"
+st "reset            : std_logic"
 )
 )
 *33 (Net
@@ -1507,8 +1505,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,96600,1000,97400"
-st "SPI1_sClk        : std_ulogic
-"
+st "SPI1_sClk        : std_ulogic"
 )
 )
 *34 (Net
@@ -1525,8 +1522,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,91800,1000,92600"
-st "SPI1_MOSI        : std_ulogic
-"
+st "SPI1_MOSI        : std_ulogic"
 )
 )
 *35 (Net
@@ -1543,8 +1539,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,91000,1000,91800"
-st "SPI1_MISO        : std_ulogic
-"
+st "SPI1_MISO        : std_ulogic"
 )
 )
 *36 (Net
@@ -1561,8 +1556,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,120000,4500,120800"
-st "SIGNAL SPI1_SS_n        : std_ulogic
-"
+st "SIGNAL SPI1_SS_n        : std_ulogic"
 )
 )
 *37 (PortIoOut
@@ -1875,7 +1869,7 @@ thePort (LogicalPort
 lang 11
 decl (Decl
 n "SlaveSelect"
-t "std_ulogic_vector"
+t "unsigned"
 b "(1 DOWNTO 0)"
 o 5
 suid 5,0
@@ -2114,8 +2108,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,92600,1000,93400"
-st "SPI1_SS1_n       : std_ulogic
-"
+st "SPI1_SS1_n       : std_ulogic"
 )
 )
 *53 (Net
@@ -2133,8 +2126,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,94200,1000,95000"
-st "SPI1_SS3_n       : std_ulogic
-"
+st "SPI1_SS3_n       : std_ulogic"
 )
 )
 *54 (Net
@@ -2152,8 +2144,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,93400,1000,94200"
-st "SPI1_SS2_n       : std_ulogic
-"
+st "SPI1_SS2_n       : std_ulogic"
 )
 )
 *55 (SaComponent
@@ -2916,8 +2907,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,103000,1000,103800"
-st "SPI2_sClk        : std_ulogic
-"
+st "SPI2_sClk        : std_ulogic"
 )
 )
 *77 (Net
@@ -2934,8 +2924,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,99800,1000,100600"
-st "SPI2_MOSI        : std_ulogic
-"
+st "SPI2_MOSI        : std_ulogic"
 )
 )
 *78 (Net
@@ -2952,8 +2941,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,99000,1000,99800"
-st "SPI2_MISO        : std_ulogic
-"
+st "SPI2_MISO        : std_ulogic"
 )
 )
 *79 (Net
@@ -2971,8 +2959,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,100600,1000,101400"
-st "SPI2_SS1_n       : std_ulogic
-"
+st "SPI2_SS1_n       : std_ulogic"
 )
 )
 *80 (SaComponent
@@ -3851,7 +3838,7 @@ thePort (LogicalPort
 lang 11
 decl (Decl
 n "SlaveSelect"
-t "std_ulogic_vector"
+t "unsigned"
 b "(1 DOWNTO 0)"
 o 5
 )
@@ -4044,8 +4031,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,110200,1000,111000"
-st "SPI3_sClk        : std_ulogic
-"
+st "SPI3_sClk        : std_ulogic"
 )
 )
 *112 (Net
@@ -4062,8 +4048,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,106200,1000,107000"
-st "SPI3_MOSI        : std_ulogic
-"
+st "SPI3_MOSI        : std_ulogic"
 )
 )
 *113 (Net
@@ -4080,8 +4065,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,105400,1000,106200"
-st "SPI3_MISO        : std_ulogic
-"
+st "SPI3_MISO        : std_ulogic"
 )
 )
 *114 (Net
@@ -4098,8 +4082,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,120800,4500,121600"
-st "SIGNAL SPI3_SS_n        : std_ulogic
-"
+st "SIGNAL SPI3_SS_n        : std_ulogic"
 )
 )
 *115 (Net
@@ -4117,8 +4100,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,107000,1000,107800"
-st "SPI3_SS1_n       : std_ulogic
-"
+st "SPI3_SS1_n       : std_ulogic"
 )
 )
 *116 (Net
@@ -4136,8 +4118,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,107800,1000,108600"
-st "SPI3_SS2_n       : std_ulogic
-"
+st "SPI3_SS2_n       : std_ulogic"
 )
 )
 *117 (SaComponent
@@ -4629,7 +4610,7 @@ va (VaSet
 font "Verdana,9,1"
 )
 xt "98600,68200,106800,69400"
-st "SPI3_Master1"
+st "SPI40_Master"
 blo "98600,69200"
 tm "InstanceNameMgr"
 )
@@ -5016,7 +4997,7 @@ thePort (LogicalPort
 lang 11
 decl (Decl
 n "SlaveSelect"
-t "std_ulogic_vector"
+t "unsigned"
 b "(1 DOWNTO 0)"
 o 5
 )
@@ -5209,8 +5190,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,117400,1000,118200"
-st "SPI4_sClk        : std_ulogic
-"
+st "SPI4_sClk        : std_ulogic"
 )
 )
 *149 (Net
@@ -5227,8 +5207,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,113400,1000,114200"
-st "SPI4_MOSI        : std_ulogic
-"
+st "SPI4_MOSI        : std_ulogic"
 )
 )
 *150 (Net
@@ -5245,8 +5224,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,112600,1000,113400"
-st "SPI4_MISO        : std_ulogic
-"
+st "SPI4_MISO        : std_ulogic"
 )
 )
 *151 (Net
@@ -5263,8 +5241,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,121600,4500,122400"
-st "SIGNAL SPI4_SS_n        : std_ulogic
-"
+st "SIGNAL SPI4_SS_n        : std_ulogic"
 )
 )
 *152 (Net
@@ -5282,8 +5259,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,114200,1000,115000"
-st "SPI4_SS1_n       : std_ulogic
-"
+st "SPI4_SS1_n       : std_ulogic"
 )
 )
 *153 (Net
@@ -5301,8 +5277,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,115000,1000,115800"
-st "SPI4_SS2_n       : std_ulogic
-"
+st "SPI4_SS2_n       : std_ulogic"
 )
 )
 *154 (PortIoIn
@@ -5634,8 +5609,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,95800,1000,96600"
-st "SPI1_masterFull  : std_ulogic
-"
+st "SPI1_masterFull  : std_ulogic"
 )
 )
 *162 (Net
@@ -5652,8 +5626,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,79000,1000,79800"
-st "SPI1_Write       : std_ulogic
-"
+st "SPI1_Write       : std_ulogic"
 )
 )
 *163 (Net
@@ -5670,8 +5643,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,97400,1000,98200"
-st "SPI1_slaveEmpty  : std_ulogic
-"
+st "SPI1_slaveEmpty  : std_ulogic"
 )
 )
 *164 (Net
@@ -5688,8 +5660,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,77400,1000,78200"
-st "SPI1_Read        : std_ulogic
-"
+st "SPI1_Read        : std_ulogic"
 )
 )
 *165 (Net
@@ -5706,8 +5677,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,95000,500,95800"
-st "SPI1_endTransfer : std_logic
-"
+st "SPI1_endTransfer : std_logic"
 )
 )
 *166 (PortIoIn
@@ -6040,8 +6010,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,79800,16000,80600"
-st "SPI2_DataOut     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SPI2_DataOut     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *174 (Net
@@ -6058,8 +6027,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,102200,1000,103000"
-st "SPI2_masterFull  : std_ulogic
-"
+st "SPI2_masterFull  : std_ulogic"
 )
 )
 *175 (Net
@@ -6076,8 +6044,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,81400,1000,82200"
-st "SPI2_Write       : std_ulogic
-"
+st "SPI2_Write       : std_ulogic"
 )
 )
 *176 (Net
@@ -6095,8 +6062,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,98200,16000,99000"
-st "SPI2_DataIn      : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SPI2_DataIn      : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *177 (Net
@@ -6113,8 +6079,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,103800,1000,104600"
-st "SPI2_slaveEmpty  : std_ulogic
-"
+st "SPI2_slaveEmpty  : std_ulogic"
 )
 )
 *178 (Net
@@ -6131,8 +6096,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,80600,1000,81400"
-st "SPI2_Read        : std_ulogic
-"
+st "SPI2_Read        : std_ulogic"
 )
 )
 *179 (Net
@@ -6149,8 +6113,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,101400,500,102200"
-st "SPI2_endTransfer : std_logic
-"
+st "SPI2_endTransfer : std_logic"
 )
 )
 *180 (PortIoIn
@@ -6483,8 +6446,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,82200,16000,83000"
-st "SPI3_DataOut     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SPI3_DataOut     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *188 (Net
@@ -6501,8 +6463,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,109400,1000,110200"
-st "SPI3_masterFull  : std_ulogic
-"
+st "SPI3_masterFull  : std_ulogic"
 )
 )
 *189 (Net
@@ -6519,8 +6480,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,84600,1000,85400"
-st "SPI3_Write       : std_ulogic
-"
+st "SPI3_Write       : std_ulogic"
 )
 )
 *190 (Net
@@ -6538,8 +6498,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,104600,16000,105400"
-st "SPI3_DataIn      : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SPI3_DataIn      : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *191 (Net
@@ -6556,8 +6515,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,111000,1000,111800"
-st "SPI3_slaveEmpty  : std_ulogic
-"
+st "SPI3_slaveEmpty  : std_ulogic"
 )
 )
 *192 (Net
@@ -6574,8 +6532,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,83000,1000,83800"
-st "SPI3_Read        : std_ulogic
-"
+st "SPI3_Read        : std_ulogic"
 )
 )
 *193 (Net
@@ -6592,8 +6549,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,108600,500,109400"
-st "SPI3_endTransfer : std_logic
-"
+st "SPI3_endTransfer : std_logic"
 )
 )
 *194 (PortIoIn
@@ -6926,8 +6882,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,85400,16000,86200"
-st "SPI4_DataOut     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SPI4_DataOut     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *202 (Net
@@ -6944,8 +6899,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,116600,1000,117400"
-st "SPI4_masterFull  : std_ulogic
-"
+st "SPI4_masterFull  : std_ulogic"
 )
 )
 *203 (Net
@@ -6962,8 +6916,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,87800,1000,88600"
-st "SPI4_Write       : std_ulogic
-"
+st "SPI4_Write       : std_ulogic"
 )
 )
 *204 (Net
@@ -6981,8 +6934,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,111800,16000,112600"
-st "SPI4_DataIn      : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SPI4_DataIn      : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *205 (Net
@@ -6999,8 +6951,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,118200,1000,119000"
-st "SPI4_slaveEmpty  : std_ulogic
-"
+st "SPI4_slaveEmpty  : std_ulogic"
 )
 )
 *206 (Net
@@ -7017,8 +6968,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,86200,1000,87000"
-st "SPI4_Read        : std_ulogic
-"
+st "SPI4_Read        : std_ulogic"
 )
 )
 *207 (Net
@@ -7035,8 +6985,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,115800,500,116600"
-st "SPI4_endTransfer : std_logic
-"
+st "SPI4_endTransfer : std_logic"
 )
 )
 *208 (Net
@@ -7054,8 +7003,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,76600,16000,77400"
-st "SPI1_DataOut     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SPI1_DataOut     : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *209 (Net
@@ -7073,8 +7021,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,90200,16000,91000"
-st "SPI1_DataIn      : std_ulogic_vector(dataBitNb-1 DOWNTO 0)
-"
+st "SPI1_DataIn      : std_ulogic_vector(dataBitNb-1 DOWNTO 0)"
 )
 )
 *210 (PortIoIn
@@ -7228,8 +7175,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,78200,11000,79000"
-st "SPI1_Select      : std_ulogic_vector(1 DOWNTO 0)
-"
+st "SPI1_Select      : std_ulogic_vector(1 DOWNTO 0)"
 )
 )
 *214 (Net
@@ -7248,8 +7194,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,83800,11000,84600"
-st "SPI3_Select      : std_ulogic_vector(1 DOWNTO 0)
-"
+st "SPI3_Select      : std_ulogic_vector(1 DOWNTO 0)"
 )
 )
 *215 (Net
@@ -7268,8 +7213,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "-15000,87000,11000,87800"
-st "SPI4_Select      : std_ulogic_vector(1 DOWNTO 0)
-"
+st "SPI4_Select      : std_ulogic_vector(1 DOWNTO 0)"
 )
 )
 *216 (Wire
@@ -9819,8 +9763,8 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-8,-8,1928,918"
-viewArea "-13015,8610,134299,77437"
+windowSize "0,0,1921,926"
+viewArea "-13000,14951,134291,84377"
 cachedDiagramExtent "-17000,0,145000,122400"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -9844,7 +9788,7 @@ exportStdPackageRefs 1
 )
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 1910,0
+lastUid 1996,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

@@ -1340,19 +1340,19 @@ value "C:\\work\\OBC\\Prefs\\..\\OBC\\hds\\SPI_Control"
 )
 (vvPair
 variable "date"
-value "16.07.2020"
+value "17.07.2020"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "16"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -1380,7 +1380,7 @@ value "student"
 )
 (vvPair
 variable "graphical_source_date"
-value "16.07.2020"
+value "17.07.2020"
 )
 (vvPair
 variable "graphical_source_group"
@@ -1392,7 +1392,7 @@ value "DESKTOP-3I0F3HP"
 )
 (vvPair
 variable "graphical_source_time"
-value "08:58:14"
+value "15:12:05"
 )
 (vvPair
 variable "group"
@@ -1496,7 +1496,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "08:58:14"
+value "15:12:05"
 )
 (vvPair
 variable "unit"
@@ -1562,8 +1562,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,14000,64500,14800"
-st "clock            : IN     std_logic  ;
-"
+st "clock            : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1607,8 +1606,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,14800,64500,15600"
-st "reset            : IN     std_logic  ;
-"
+st "reset            : IN     std_logic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1653,8 +1651,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,22000,65000,22800"
-st "SPI1_sClk        : OUT    std_ulogic  ;
-"
+st "SPI1_sClk        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1699,8 +1696,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,17200,65000,18000"
-st "SPI1_MOSI        : OUT    std_ulogic  ;
-"
+st "SPI1_MOSI        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1745,8 +1741,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,16400,65000,17200"
-st "SPI1_MISO        : OUT    std_ulogic  ;
-"
+st "SPI1_MISO        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1791,8 +1786,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,18000,65000,18800"
-st "SPI1_SS1_n       : OUT    std_ulogic  ;
-"
+st "SPI1_SS1_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1838,8 +1832,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,19600,65000,20400"
-st "SPI1_SS3_n       : OUT    std_ulogic  ;
-"
+st "SPI1_SS3_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1885,8 +1878,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,18800,65000,19600"
-st "SPI1_SS2_n       : OUT    std_ulogic  ;
-"
+st "SPI1_SS2_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1932,8 +1924,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,28400,65000,29200"
-st "SPI2_sClk        : OUT    std_ulogic  ;
-"
+st "SPI2_sClk        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1978,8 +1969,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,25200,65000,26000"
-st "SPI2_MOSI        : OUT    std_ulogic  ;
-"
+st "SPI2_MOSI        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2024,8 +2014,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,24400,65000,25200"
-st "SPI2_MISO        : OUT    std_ulogic  ;
-"
+st "SPI2_MISO        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2070,8 +2059,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,26000,65000,26800"
-st "SPI2_SS1_n       : OUT    std_ulogic  ;
-"
+st "SPI2_SS1_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -2117,8 +2105,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,35600,65000,36400"
-st "SPI3_sClk        : OUT    std_ulogic  ;
-"
+st "SPI3_sClk        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2163,8 +2150,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,31600,65000,32400"
-st "SPI3_MOSI        : OUT    std_ulogic  ;
-"
+st "SPI3_MOSI        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2209,8 +2195,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,30800,65000,31600"
-st "SPI3_MISO        : OUT    std_ulogic  ;
-"
+st "SPI3_MISO        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2255,8 +2240,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,32400,65000,33200"
-st "SPI3_SS1_n       : OUT    std_ulogic  ;
-"
+st "SPI3_SS1_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -2302,8 +2286,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,33200,65000,34000"
-st "SPI3_SS2_n       : OUT    std_ulogic  ;
-"
+st "SPI3_SS2_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -2349,8 +2332,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,42800,65000,43600"
-st "SPI4_sClk        : OUT    std_ulogic  ;
-"
+st "SPI4_sClk        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2395,8 +2377,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,38800,65000,39600"
-st "SPI4_MOSI        : OUT    std_ulogic  ;
-"
+st "SPI4_MOSI        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2441,8 +2422,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,38000,65000,38800"
-st "SPI4_MISO        : OUT    std_ulogic  ;
-"
+st "SPI4_MISO        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2487,8 +2467,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,39600,65000,40400"
-st "SPI4_SS1_n       : OUT    std_ulogic  ;
-"
+st "SPI4_SS1_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -2534,8 +2513,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,40400,65000,41200"
-st "SPI4_SS2_n       : OUT    std_ulogic  ;
-"
+st "SPI4_SS2_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -2580,8 +2558,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2000,80000,2800"
-st "SPI1_DataOut     : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;
-"
+st "SPI1_DataOut     : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -2626,8 +2603,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,21200,65000,22000"
-st "SPI1_masterFull  : OUT    std_ulogic  ;
-"
+st "SPI1_masterFull  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2671,8 +2647,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4400,65000,5200"
-st "SPI1_Write       : IN     std_ulogic  ;
-"
+st "SPI1_Write       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -2716,8 +2691,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,15600,80000,16400"
-st "SPI1_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;
-"
+st "SPI1_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 m 1
@@ -2763,8 +2737,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,22800,65000,23600"
-st "SPI1_slaveEmpty  : OUT    std_ulogic  ;
-"
+st "SPI1_slaveEmpty  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2808,8 +2781,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2800,65000,3600"
-st "SPI1_Read        : IN     std_ulogic  ;
-"
+st "SPI1_Read        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -2853,8 +2825,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,20400,64500,21200"
-st "SPI1_endTransfer : OUT    std_logic  ;
-"
+st "SPI1_endTransfer : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2898,8 +2869,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5200,80000,6000"
-st "SPI2_DataOut     : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;
-"
+st "SPI2_DataOut     : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -2944,8 +2914,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,27600,65000,28400"
-st "SPI2_masterFull  : OUT    std_ulogic  ;
-"
+st "SPI2_masterFull  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -2989,8 +2958,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6800,65000,7600"
-st "SPI2_Write       : IN     std_ulogic  ;
-"
+st "SPI2_Write       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -3034,8 +3002,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,23600,80000,24400"
-st "SPI2_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;
-"
+st "SPI2_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 m 1
@@ -3081,8 +3048,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,29200,65000,30000"
-st "SPI2_slaveEmpty  : OUT    std_ulogic  ;
-"
+st "SPI2_slaveEmpty  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -3126,8 +3092,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6000,65000,6800"
-st "SPI2_Read        : IN     std_ulogic  ;
-"
+st "SPI2_Read        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -3171,8 +3136,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,26800,64500,27600"
-st "SPI2_endTransfer : OUT    std_logic  ;
-"
+st "SPI2_endTransfer : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -3216,8 +3180,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7600,80000,8400"
-st "SPI3_DataOut     : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;
-"
+st "SPI3_DataOut     : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -3262,8 +3225,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,34800,65000,35600"
-st "SPI3_masterFull  : OUT    std_ulogic  ;
-"
+st "SPI3_masterFull  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -3307,8 +3269,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,10000,65000,10800"
-st "SPI3_Write       : IN     std_ulogic  ;
-"
+st "SPI3_Write       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -3352,8 +3313,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,30000,80000,30800"
-st "SPI3_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;
-"
+st "SPI3_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 m 1
@@ -3399,8 +3359,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,36400,65000,37200"
-st "SPI3_slaveEmpty  : OUT    std_ulogic  ;
-"
+st "SPI3_slaveEmpty  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -3444,8 +3403,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8400,65000,9200"
-st "SPI3_Read        : IN     std_ulogic  ;
-"
+st "SPI3_Read        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -3489,8 +3447,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,34000,64500,34800"
-st "SPI3_endTransfer : OUT    std_logic  ;
-"
+st "SPI3_endTransfer : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -3534,8 +3491,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,10800,80000,11600"
-st "SPI4_DataOut     : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;
-"
+st "SPI4_DataOut     : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -3580,8 +3536,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,42000,65000,42800"
-st "SPI4_masterFull  : OUT    std_ulogic  ;
-"
+st "SPI4_masterFull  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -3625,8 +3580,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,13200,65000,14000"
-st "SPI4_Write       : IN     std_ulogic  ;
-"
+st "SPI4_Write       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -3670,8 +3624,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,37200,80000,38000"
-st "SPI4_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;
-"
+st "SPI4_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 m 1
@@ -3717,8 +3670,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,43600,64000,44400"
-st "SPI4_slaveEmpty  : OUT    std_ulogic 
-"
+st "SPI4_slaveEmpty  : OUT    std_ulogic "
 )
 thePort (LogicalPort
 m 1
@@ -3762,8 +3714,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,11600,65000,12400"
-st "SPI4_Read        : IN     std_ulogic  ;
-"
+st "SPI4_Read        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -3807,8 +3758,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,41200,64500,42000"
-st "SPI4_endTransfer : OUT    std_logic  ;
-"
+st "SPI4_endTransfer : OUT    std_logic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -3852,8 +3802,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3600,75000,4400"
-st "SPI1_Select      : IN     std_ulogic_vector (1 DOWNTO 0) ;
-"
+st "SPI1_Select      : IN     std_ulogic_vector (1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 11
@@ -3898,8 +3847,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,9200,75000,10000"
-st "SPI3_Select      : IN     std_ulogic_vector (1 DOWNTO 0) ;
-"
+st "SPI3_Select      : IN     std_ulogic_vector (1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 11
@@ -3944,8 +3892,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,12400,75000,13200"
-st "SPI4_Select      : IN     std_ulogic_vector (1 DOWNTO 0) ;
-"
+st "SPI4_Select      : IN     std_ulogic_vector (1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 11
@@ -4653,7 +4600,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 754,0
+lastUid 823,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

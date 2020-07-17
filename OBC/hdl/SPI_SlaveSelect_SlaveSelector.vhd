@@ -16,9 +16,10 @@ BEGIN
         SS2_n <= '1';
         SS3_n <= '1';
         CASE SlaveSelect IS
-            WHEN 1 => SS1_n <= SS_n;
-            WHEN 2 => SS2_n <= SS_n;
-            WHEN 3 => SS3_n >= SS_n;
+            WHEN "01" => SS1_n <= SS_n;
+            WHEN "10" => SS2_n <= SS_n;
+            WHEN "11" => SS3_n <= SS_n;
+            WHEN OTHERS =>
         END CASE; 
     END PROCESS;
 

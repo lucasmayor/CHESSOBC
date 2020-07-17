@@ -5,20 +5,21 @@ OBC = $HDS_PROJECT_DIR/../OBC/concat
 Board = $SCRATCH_DIR/Board
 Common = $SCRATCH_DIR/Common
 Common_test = $SCRATCH_DIR/Common_test
+Gates = $SCRATCH_DIR/Gates
 Memory = $SCRATCH_DIR/Memory
 Memory_test = $SCRATCH_DIR/Memory_test
 OBC = $SCRATCH_DIR/OBC
 OBC_test = $SCRATCH_DIR/OBC_test
 RS232 = $SCRATCH_DIR/RS232
 RS232_test = $SCRATCH_DIR/RS232_test
+Sequential = $SCRATCH_DIR/Sequential
 SPI = $SCRATCH_DIR/SPI
 SPI_test = $SCRATCH_DIR/SPI_test
-Gates = $SCRATCH_DIR/Gates
-Sequential = $SCRATCH_DIR/Sequential
 [hdl]
 Board = $HDS_PROJECT_DIR/../Board/hdl
 Common = $HEI_LIBS_DIR/Common/hdl
 Common_test = $HEI_LIBS_DIR/Common_test/hdl
+Gates = $HEI_LIBS_DIR/Gates/hdl
 ieee = $HDS_HOME/hdl_libs/ieee/hdl
 Memory = $HEI_LIBS_DIR/Memory/hdl
 Memory_test = $HEI_LIBS_DIR/Memory_test/hdl
@@ -26,15 +27,15 @@ OBC = $HDS_PROJECT_DIR/../OBC/hdl
 OBC_test = $HDS_PROJECT_DIR/../OBC_test/hdl
 RS232 = $HEI_LIBS_DIR/RS232/hdl
 RS232_test = $HEI_LIBS_DIR/RS232_test/hdl
+Sequential = $HEI_LIBS_DIR/Sequential/hdl
 SPI = $HEI_LIBS_DIR/SPI/hdl
 SPI_test = $HEI_LIBS_DIR/SPI_test/hdl
-Gates = $HEI_LIBS_DIR/Gates/hdl
-Sequential = $HEI_LIBS_DIR/Sequential/hdl
 std = $HDS_HOME/hdl_libs/std/hdl
 [hds]
 Board = $HDS_PROJECT_DIR/../Board/hds
 Common = $HEI_LIBS_DIR/Common/hds
 Common_test = $HEI_LIBS_DIR/Common_test/hds
+Gates = $HEI_LIBS_DIR/Gates/hds
 ieee = $HDS_HOME/hdl_libs/ieee/hds
 Memory = $HEI_LIBS_DIR/Memory/hds
 Memory_test = $HEI_LIBS_DIR/Memory_test/hds
@@ -42,14 +43,12 @@ OBC = $HDS_PROJECT_DIR/../OBC/hds
 OBC_test = $HDS_PROJECT_DIR/../OBC_test/hds
 RS232 = $HEI_LIBS_DIR/RS232/hds
 RS232_test = $HEI_LIBS_DIR/RS232_test/hds
+Sequential = $HEI_LIBS_DIR/Sequential/hds
 SPI = $HEI_LIBS_DIR/SPI/hds
 SPI_test = $HEI_LIBS_DIR/SPI_test/hds
-Gates = $HEI_LIBS_DIR/Gates/hds
-Sequential = $HEI_LIBS_DIR/Sequential/hds
 std = $HDS_HOME/hdl_libs/std/hds
 [hds_settings]
 design_root = .()
-[library_files_inclusion]
 [library_type]
 ieee = standard
 std = standard
