@@ -11,6 +11,23 @@ unitName "std_logic_1164"
 library "ieee"
 unitName "std_logic_arith"
 )
+(DmPackageRef
+library "ieee"
+unitName "numeric_std"
+)
+(DmPackageRef
+library "OBC"
+unitName "pkg_scala2hdl"
+)
+(DmPackageRef
+library "OBC"
+unitName "all"
+itemName ""
+)
+(DmPackageRef
+library "OBC"
+unitName "pkg_enum"
+)
 ]
 instances [
 (Instance
@@ -81,6 +98,7 @@ uid 391,0
 ]
 libraryRefs [
 "ieee"
+"OBC"
 ]
 )
 version "32.1"
@@ -131,19 +149,19 @@ value "C:\\work\\OBC\\Prefs\\..\\OBC_test\\hds\\OBC_SPI_test"
 )
 (vvPair
 variable "date"
-value "17.07.2020"
+value "20.07.2020"
 )
 (vvPair
 variable "day"
-value "ven."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "20"
 )
 (vvPair
 variable "entity_name"
@@ -171,7 +189,7 @@ value "student"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.07.2020"
+value "20.07.2020"
 )
 (vvPair
 variable "graphical_source_group"
@@ -183,7 +201,7 @@ value "DESKTOP-3I0F3HP"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:13:10"
+value "13:29:40"
 )
 (vvPair
 variable "group"
@@ -283,7 +301,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "15:13:10"
+value "13:29:40"
 )
 (vvPair
 variable "unit"
@@ -1980,11 +1998,11 @@ uid 541,0
 va (VaSet
 vasetType 3
 )
-xt "39750,23000,45000,25000"
+xt "39750,23000,44000,25000"
 pts [
 "39750,23000"
-"45000,23000"
-"45000,25000"
+"44000,23000"
+"44000,25000"
 "39750,25000"
 ]
 )
@@ -2499,10 +2517,15 @@ blo "-33000,1800"
 uid 43,0
 va (VaSet
 )
-xt "-33000,2000,-22200,5000"
+xt "-33000,2000,-22100,10000"
 st "LIBRARY ieee;
 USE ieee.std_logic_1164.all;
-USE ieee.std_logic_arith.all;"
+USE ieee.std_logic_arith.all;
+USE ieee.numeric_std.all;
+LIBRARY OBC;
+USE OBC.pkg_scala2hdl.all;
+USE OBC.all;
+USE OBC.pkg_enum.all;"
 tm "PackageList"
 )
 ]
@@ -2581,11 +2604,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,24,1921,950"
-viewArea "-36897,10373,80936,65914"
+viewArea "-17450,10660,101060,66520"
 cachedDiagramExtent "-33000,0,102000,71000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-68000,0"
-lastUid 734,0
+lastUid 890,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
