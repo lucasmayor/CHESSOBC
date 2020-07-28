@@ -1,6 +1,8 @@
 [Concat]
 Board = $HDS_PROJECT_DIR/../Board/concat
 OBC = $HDS_PROJECT_DIR/../OBC/concat
+[DesignChecker]
+Board = $HDS_PROJECT_DIR\..\Board\designcheck
 [ModelSim]
 Board = $SCRATCH_DIR/Board
 Common = $SCRATCH_DIR/Common
@@ -48,7 +50,7 @@ SPI = $HEI_LIBS_DIR/SPI/hds
 SPI_test = $HEI_LIBS_DIR/SPI_test/hds
 std = $HDS_HOME/hdl_libs/std/hds
 [hds_settings]
-design_root = .()
+design_root = Board.obc_circuit(struct)obc_circuit/struct.bd
 [library_type]
 ieee = standard
 std = standard

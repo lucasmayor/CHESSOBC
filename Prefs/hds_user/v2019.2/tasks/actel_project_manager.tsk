@@ -20,6 +20,8 @@ settingsMap [
 "$SYNTHESIS_WORK_DIR"
 "promptForRunSettings"
 "0"
+"runMethod"
+"gui"
 "runnableObject"
 "$HDS_HOME\\resources\\perl\\bin\\perl.exe"
 "runnableObjectType"

@@ -16,8 +16,6 @@ settingsMap [
 "1"
 "customPrompt"
 ""
-"forceGui"
-"NO_FORCE"
 "initialDir"
 ""
 "promptForRunSettings"

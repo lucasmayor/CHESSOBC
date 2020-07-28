@@ -116,7 +116,7 @@ port (LogicalPort
 lang 11
 decl (Decl
 n "SlaveSelect"
-t "std_ulogic_vector"
+t "unsigned"
 b "(1 DOWNTO 0)"
 o 5
 suid 5,0
@@ -473,19 +473,19 @@ value "C:\\work\\OBC\\Prefs\\..\\OBC\\hds\\SPI_SlaveSelect"
 )
 (vvPair
 variable "date"
-value "15.07.2020"
+value "17.07.2020"
 )
 (vvPair
 variable "day"
-value "mer."
+value "ven."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "vendredi"
 )
 (vvPair
 variable "dd"
-value "15"
+value "17"
 )
 (vvPair
 variable "entity_name"
@@ -513,7 +513,7 @@ value "student"
 )
 (vvPair
 variable "graphical_source_date"
-value "15.07.2020"
+value "17.07.2020"
 )
 (vvPair
 variable "graphical_source_group"
@@ -525,7 +525,7 @@ value "DESKTOP-3I0F3HP"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:04:19"
+value "15:12:35"
 )
 (vvPair
 variable "group"
@@ -629,7 +629,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "16:04:19"
+value "15:12:35"
 )
 (vvPair
 variable "unit"
@@ -876,14 +876,14 @@ uid 85,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2800,72500,3600"
-st "SlaveSelect : IN     std_ulogic_vector (1 DOWNTO 0) ;"
+xt "44000,2800,68000,3600"
+st "SlaveSelect : IN     unsigned (1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "SlaveSelect"
-t "std_ulogic_vector"
+t "unsigned"
 b "(1 DOWNTO 0)"
 o 5
 suid 5,0
@@ -1314,9 +1314,9 @@ tm "PackageList"
 )
 ]
 )
-windowSize "288,141,1304,831"
-viewArea "-2566,-2211,39534,27815"
-cachedDiagramExtent "0,0,72500,51000"
+windowSize "288,141,1305,831"
+viewArea "-2600,-2200,39217,26102"
+cachedDiagramExtent "0,0,68000,51000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
 defaultCommentText (CommentText
@@ -1586,6 +1586,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 165,0
-activeModelName "Symbol"
+lastUid 212,0
+activeModelName "Symbol:CDM"
 )

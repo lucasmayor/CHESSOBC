@@ -66,7 +66,7 @@ lang 11
 decl (Decl
 n "clock"
 t "std_logic"
-o 16
+o 20
 suid 1,0
 )
 )
@@ -78,7 +78,7 @@ lang 11
 decl (Decl
 n "reset"
 t "std_logic"
-o 17
+o 21
 suid 2,0
 )
 )
@@ -90,7 +90,7 @@ m 1
 decl (Decl
 n "SPI1_sClk"
 t "std_ulogic"
-o 26
+o 29
 suid 3,0
 )
 )
@@ -102,7 +102,7 @@ m 1
 decl (Decl
 n "SPI1_MOSI"
 t "std_ulogic"
-o 20
+o 23
 suid 4,0
 )
 )
@@ -110,11 +110,10 @@ uid 148,0
 )
 *18 (LogPort
 port (LogicalPort
-m 1
 decl (Decl
 n "SPI1_MISO"
 t "std_ulogic"
-o 19
+o 2
 suid 5,0
 )
 )
@@ -127,7 +126,7 @@ m 1
 decl (Decl
 n "SPI1_SS1_n"
 t "std_ulogic"
-o 21
+o 24
 suid 6,0
 )
 )
@@ -140,7 +139,7 @@ m 1
 decl (Decl
 n "SPI1_SS3_n"
 t "std_ulogic"
-o 23
+o 26
 suid 7,0
 )
 )
@@ -153,7 +152,7 @@ m 1
 decl (Decl
 n "SPI1_SS2_n"
 t "std_ulogic"
-o 22
+o 25
 suid 8,0
 )
 )
@@ -165,7 +164,7 @@ m 1
 decl (Decl
 n "SPI2_sClk"
 t "std_ulogic"
-o 34
+o 36
 suid 9,0
 )
 )
@@ -177,7 +176,7 @@ m 1
 decl (Decl
 n "SPI2_MOSI"
 t "std_ulogic"
-o 30
+o 32
 suid 10,0
 )
 )
@@ -185,11 +184,10 @@ uid 244,0
 )
 *24 (LogPort
 port (LogicalPort
-m 1
 decl (Decl
 n "SPI2_MISO"
 t "std_ulogic"
-o 29
+o 7
 suid 11,0
 )
 )
@@ -202,7 +200,7 @@ m 1
 decl (Decl
 n "SPI2_SS1_n"
 t "std_ulogic"
-o 31
+o 33
 suid 12,0
 )
 )
@@ -214,7 +212,7 @@ m 1
 decl (Decl
 n "SPI3_sClk"
 t "std_ulogic"
-o 43
+o 44
 suid 13,0
 )
 )
@@ -226,7 +224,7 @@ m 1
 decl (Decl
 n "SPI3_MOSI"
 t "std_ulogic"
-o 38
+o 39
 suid 14,0
 )
 )
@@ -234,11 +232,10 @@ uid 333,0
 )
 *28 (LogPort
 port (LogicalPort
-m 1
 decl (Decl
 n "SPI3_MISO"
 t "std_ulogic"
-o 37
+o 11
 suid 15,0
 )
 )
@@ -251,7 +248,7 @@ m 1
 decl (Decl
 n "SPI3_SS1_n"
 t "std_ulogic"
-o 39
+o 40
 suid 16,0
 )
 )
@@ -264,7 +261,7 @@ m 1
 decl (Decl
 n "SPI3_SS2_n"
 t "std_ulogic"
-o 40
+o 41
 suid 17,0
 )
 )
@@ -296,11 +293,10 @@ uid 343,0
 )
 *33 (LogPort
 port (LogicalPort
-m 1
 decl (Decl
 n "SPI4_MISO"
 t "std_ulogic"
-o 46
+o 16
 suid 20,0
 )
 )
@@ -350,7 +346,7 @@ m 1
 decl (Decl
 n "SPI1_masterFull"
 t "std_ulogic"
-o 25
+o 28
 suid 24,0
 )
 )
@@ -361,7 +357,7 @@ port (LogicalPort
 decl (Decl
 n "SPI1_Write"
 t "std_ulogic"
-o 4
+o 5
 suid 25,0
 )
 )
@@ -374,7 +370,7 @@ decl (Decl
 n "SPI1_DataIn"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 18
+o 22
 suid 26,0
 )
 )
@@ -386,7 +382,7 @@ m 1
 decl (Decl
 n "SPI1_slaveEmpty"
 t "std_ulogic"
-o 27
+o 30
 suid 27,0
 )
 )
@@ -397,7 +393,7 @@ port (LogicalPort
 decl (Decl
 n "SPI1_Read"
 t "std_ulogic"
-o 2
+o 3
 suid 28,0
 )
 )
@@ -409,7 +405,7 @@ m 1
 decl (Decl
 n "SPI1_endTransfer"
 t "std_logic"
-o 24
+o 27
 suid 29,0
 )
 )
@@ -421,7 +417,7 @@ decl (Decl
 n "SPI2_DataOut"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 5
+o 6
 suid 30,0
 )
 )
@@ -433,7 +429,7 @@ m 1
 decl (Decl
 n "SPI2_masterFull"
 t "std_ulogic"
-o 33
+o 35
 suid 31,0
 )
 )
@@ -444,7 +440,7 @@ port (LogicalPort
 decl (Decl
 n "SPI2_Write"
 t "std_ulogic"
-o 7
+o 9
 suid 32,0
 )
 )
@@ -457,7 +453,7 @@ decl (Decl
 n "SPI2_DataIn"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 28
+o 31
 suid 33,0
 )
 )
@@ -469,7 +465,7 @@ m 1
 decl (Decl
 n "SPI2_slaveEmpty"
 t "std_ulogic"
-o 35
+o 37
 suid 34,0
 )
 )
@@ -480,7 +476,7 @@ port (LogicalPort
 decl (Decl
 n "SPI2_Read"
 t "std_ulogic"
-o 6
+o 8
 suid 35,0
 )
 )
@@ -492,7 +488,7 @@ m 1
 decl (Decl
 n "SPI2_endTransfer"
 t "std_logic"
-o 32
+o 34
 suid 36,0
 )
 )
@@ -504,7 +500,7 @@ decl (Decl
 n "SPI3_DataOut"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 8
+o 10
 suid 37,0
 )
 )
@@ -516,7 +512,7 @@ m 1
 decl (Decl
 n "SPI3_masterFull"
 t "std_ulogic"
-o 42
+o 43
 suid 38,0
 )
 )
@@ -527,7 +523,7 @@ port (LogicalPort
 decl (Decl
 n "SPI3_Write"
 t "std_ulogic"
-o 11
+o 14
 suid 39,0
 )
 )
@@ -540,7 +536,7 @@ decl (Decl
 n "SPI3_DataIn"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 36
+o 38
 suid 40,0
 )
 )
@@ -552,7 +548,7 @@ m 1
 decl (Decl
 n "SPI3_slaveEmpty"
 t "std_ulogic"
-o 44
+o 45
 suid 41,0
 )
 )
@@ -563,7 +559,7 @@ port (LogicalPort
 decl (Decl
 n "SPI3_Read"
 t "std_ulogic"
-o 9
+o 12
 suid 42,0
 )
 )
@@ -575,7 +571,7 @@ m 1
 decl (Decl
 n "SPI3_endTransfer"
 t "std_logic"
-o 41
+o 42
 suid 43,0
 )
 )
@@ -587,7 +583,7 @@ decl (Decl
 n "SPI4_DataOut"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 12
+o 15
 suid 44,0
 )
 )
@@ -610,7 +606,7 @@ port (LogicalPort
 decl (Decl
 n "SPI4_Write"
 t "std_ulogic"
-o 15
+o 19
 suid 46,0
 )
 )
@@ -623,7 +619,7 @@ decl (Decl
 n "SPI4_DataIn"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 45
+o 46
 suid 47,0
 )
 )
@@ -646,7 +642,7 @@ port (LogicalPort
 decl (Decl
 n "SPI4_Read"
 t "std_ulogic"
-o 13
+o 17
 suid 49,0
 )
 )
@@ -671,7 +667,7 @@ decl (Decl
 n "SPI1_Select"
 t "std_ulogic_vector"
 b "(1 DOWNTO 0)"
-o 3
+o 4
 suid 51,0
 )
 )
@@ -684,7 +680,7 @@ decl (Decl
 n "SPI3_Select"
 t "std_ulogic_vector"
 b "(1 DOWNTO 0)"
-o 10
+o 13
 suid 52,0
 )
 )
@@ -697,7 +693,7 @@ decl (Decl
 n "SPI4_Select"
 t "std_ulogic_vector"
 b "(1 DOWNTO 0)"
-o 14
+o 18
 suid 53,0
 )
 )
@@ -1179,6 +1175,14 @@ tm "GenericPragmaColHdrMgr"
 *144 (EolColHdr
 tm "GenericEolColHdrMgr"
 )
+*145 (LogGeneric
+generic (GiElement
+name "dataBitNb"
+type "integer"
+value "8"
+)
+uid 992,0
+)
 ]
 )
 pdm (PhysicalDM
@@ -1186,7 +1190,7 @@ displayShortBounds 1
 editShortBounds 1
 uid 94,0
 optionalChildren [
-*145 (Sheet
+*146 (Sheet
 sheetRow (SheetRow
 headerVa (MVa
 cellColor "49152,49152,49152"
@@ -1203,31 +1207,37 @@ cellColor "39936,56832,65280"
 fontColor "0,0,0"
 font "Tahoma,10,0"
 )
-emptyMRCItem *146 (MRCItem
+emptyMRCItem *147 (MRCItem
 litem &133
 pos 3
 dimension 20
 )
 uid 96,0
 optionalChildren [
-*147 (MRCItem
+*148 (MRCItem
 litem &134
 pos 0
 dimension 20
 uid 97,0
 )
-*148 (MRCItem
+*149 (MRCItem
 litem &135
 pos 1
 dimension 23
 uid 98,0
 )
-*149 (MRCItem
+*150 (MRCItem
 litem &136
 pos 2
 hidden 1
 dimension 20
 uid 99,0
+)
+*151 (MRCItem
+litem &145
+pos 0
+dimension 20
+uid 991,0
 )
 ]
 )
@@ -1240,43 +1250,43 @@ textAngle 90
 )
 uid 100,0
 optionalChildren [
-*150 (MRCItem
+*152 (MRCItem
 litem &137
 pos 0
 dimension 20
 uid 101,0
 )
-*151 (MRCItem
+*153 (MRCItem
 litem &139
 pos 1
 dimension 50
 uid 102,0
 )
-*152 (MRCItem
+*154 (MRCItem
 litem &140
 pos 2
 dimension 100
 uid 103,0
 )
-*153 (MRCItem
+*155 (MRCItem
 litem &141
 pos 3
 dimension 100
 uid 104,0
 )
-*154 (MRCItem
+*156 (MRCItem
 litem &142
 pos 4
 dimension 50
 uid 105,0
 )
-*155 (MRCItem
+*157 (MRCItem
 litem &143
 pos 5
 dimension 50
 uid 106,0
 )
-*156 (MRCItem
+*158 (MRCItem
 litem &144
 pos 6
 dimension 80
@@ -1340,19 +1350,19 @@ value "C:\\work\\OBC\\Prefs\\..\\OBC\\hds\\SPI_Control"
 )
 (vvPair
 variable "date"
-value "17.07.2020"
+value "28.07.2020"
 )
 (vvPair
 variable "day"
-value "ven."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "vendredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "17"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -1380,7 +1390,7 @@ value "student"
 )
 (vvPair
 variable "graphical_source_date"
-value "17.07.2020"
+value "28.07.2020"
 )
 (vvPair
 variable "graphical_source_group"
@@ -1392,7 +1402,7 @@ value "DESKTOP-3I0F3HP"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:12:05"
+value "14:20:45"
 )
 (vvPair
 variable "group"
@@ -1496,7 +1506,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:12:05"
+value "14:20:45"
 )
 (vvPair
 variable "unit"
@@ -1527,10 +1537,10 @@ value "20"
 LanguageMgr "Vhdl2008LangMgr"
 uid 51,0
 optionalChildren [
-*157 (SymbolBody
+*159 (SymbolBody
 uid 8,0
 optionalChildren [
-*158 (CptPort
+*160 (CptPort
 uid 112,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1540,7 +1550,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,6625,15000,7375"
+xt "14250,42625,15000,43375"
 )
 tg (CPTG
 uid 114,0
@@ -1550,9 +1560,9 @@ f (Text
 uid 115,0
 va (VaSet
 )
-xt "16000,6500,18200,7500"
+xt "16000,42500,18200,43500"
 st "clock"
-blo "16000,7300"
+blo "16000,43300"
 tm "CptPortNameMgr"
 )
 )
@@ -1561,7 +1571,7 @@ uid 116,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,14000,64500,14800"
+xt "44000,17200,64500,18000"
 st "clock            : IN     std_logic  ;"
 )
 thePort (LogicalPort
@@ -1569,12 +1579,12 @@ lang 11
 decl (Decl
 n "clock"
 t "std_logic"
-o 16
+o 20
 suid 1,0
 )
 )
 )
-*159 (CptPort
+*161 (CptPort
 uid 117,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1584,7 +1594,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,7625,15000,8375"
+xt "14250,43625,15000,44375"
 )
 tg (CPTG
 uid 119,0
@@ -1594,9 +1604,9 @@ f (Text
 uid 120,0
 va (VaSet
 )
-xt "16000,7500,18100,8500"
+xt "16000,43500,18100,44500"
 st "reset"
-blo "16000,8300"
+blo "16000,44300"
 tm "CptPortNameMgr"
 )
 )
@@ -1605,7 +1615,7 @@ uid 121,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,14800,64500,15600"
+xt "44000,18000,64500,18800"
 st "reset            : IN     std_logic  ;"
 )
 thePort (LogicalPort
@@ -1613,12 +1623,12 @@ lang 11
 decl (Decl
 n "reset"
 t "std_logic"
-o 17
+o 21
 suid 2,0
 )
 )
 )
-*160 (CptPort
+*162 (CptPort
 uid 151,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1628,7 +1638,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,6625,42750,7375"
+xt "41000,3625,41750,4375"
 )
 tg (CPTG
 uid 153,0
@@ -1638,10 +1648,10 @@ f (Text
 uid 154,0
 va (VaSet
 )
-xt "37000,6500,41000,7500"
+xt "36000,3500,40000,4500"
 st "SPI1_sClk"
 ju 2
-blo "41000,7300"
+blo "40000,4300"
 tm "CptPortNameMgr"
 )
 )
@@ -1650,7 +1660,7 @@ uid 155,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,22000,65000,22800"
+xt "44000,24400,65000,25200"
 st "SPI1_sClk        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -1658,12 +1668,12 @@ m 1
 decl (Decl
 n "SPI1_sClk"
 t "std_ulogic"
-o 26
+o 29
 suid 3,0
 )
 )
 )
-*161 (CptPort
+*163 (CptPort
 uid 156,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1673,7 +1683,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,7625,42750,8375"
+xt "41000,4625,41750,5375"
 )
 tg (CPTG
 uid 158,0
@@ -1683,10 +1693,10 @@ f (Text
 uid 159,0
 va (VaSet
 )
-xt "36600,7500,41000,8500"
+xt "35600,4500,40000,5500"
 st "SPI1_MOSI"
 ju 2
-blo "41000,8300"
+blo "40000,5300"
 tm "CptPortNameMgr"
 )
 )
@@ -1695,7 +1705,7 @@ uid 160,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,17200,65000,18000"
+xt "44000,19600,65000,20400"
 st "SPI1_MOSI        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -1703,22 +1713,22 @@ m 1
 decl (Decl
 n "SPI1_MOSI"
 t "std_ulogic"
-o 20
+o 23
 suid 4,0
 )
 )
 )
-*162 (CptPort
+*164 (CptPort
 uid 161,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 162,0
-ro 90
+uid 940,0
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,8625,42750,9375"
+xt "41000,5625,41750,6375"
 )
 tg (CPTG
 uid 163,0
@@ -1728,10 +1738,10 @@ f (Text
 uid 164,0
 va (VaSet
 )
-xt "36600,8500,41000,9500"
+xt "35600,5500,40000,6500"
 st "SPI1_MISO"
 ju 2
-blo "41000,9300"
+blo "40000,6300"
 tm "CptPortNameMgr"
 )
 )
@@ -1740,20 +1750,19 @@ uid 165,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,16400,65000,17200"
-st "SPI1_MISO        : OUT    std_ulogic  ;"
+xt "44000,2800,65000,3600"
+st "SPI1_MISO        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
-m 1
 decl (Decl
 n "SPI1_MISO"
 t "std_ulogic"
-o 19
+o 2
 suid 5,0
 )
 )
 )
-*163 (CptPort
+*165 (CptPort
 uid 249,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1763,7 +1772,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,9625,42750,10375"
+xt "41000,6625,41750,7375"
 )
 tg (CPTG
 uid 251,0
@@ -1773,10 +1782,10 @@ f (Text
 uid 252,0
 va (VaSet
 )
-xt "36000,9500,41000,10500"
+xt "35000,6500,40000,7500"
 st "SPI1_SS1_n"
 ju 2
-blo "41000,10300"
+blo "40000,7300"
 tm "CptPortNameMgr"
 )
 )
@@ -1785,7 +1794,7 @@ uid 253,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,18000,65000,18800"
+xt "44000,20400,65000,21200"
 st "SPI1_SS1_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -1794,12 +1803,12 @@ m 1
 decl (Decl
 n "SPI1_SS1_n"
 t "std_ulogic"
-o 21
+o 24
 suid 6,0
 )
 )
 )
-*164 (CptPort
+*166 (CptPort
 uid 254,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1809,7 +1818,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,10625,42750,11375"
+xt "41000,7625,41750,8375"
 )
 tg (CPTG
 uid 256,0
@@ -1819,10 +1828,10 @@ f (Text
 uid 257,0
 va (VaSet
 )
-xt "36000,10500,41000,11500"
+xt "35000,7500,40000,8500"
 st "SPI1_SS3_n"
 ju 2
-blo "41000,11300"
+blo "40000,8300"
 tm "CptPortNameMgr"
 )
 )
@@ -1831,7 +1840,7 @@ uid 258,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,19600,65000,20400"
+xt "44000,22000,65000,22800"
 st "SPI1_SS3_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -1840,12 +1849,12 @@ m 1
 decl (Decl
 n "SPI1_SS3_n"
 t "std_ulogic"
-o 23
+o 26
 suid 7,0
 )
 )
 )
-*165 (CptPort
+*167 (CptPort
 uid 259,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1855,7 +1864,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,11625,42750,12375"
+xt "41000,8625,41750,9375"
 )
 tg (CPTG
 uid 261,0
@@ -1865,10 +1874,10 @@ f (Text
 uid 262,0
 va (VaSet
 )
-xt "36000,11500,41000,12500"
+xt "35000,8500,40000,9500"
 st "SPI1_SS2_n"
 ju 2
-blo "41000,12300"
+blo "40000,9300"
 tm "CptPortNameMgr"
 )
 )
@@ -1877,7 +1886,7 @@ uid 263,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,18800,65000,19600"
+xt "44000,21200,65000,22000"
 st "SPI1_SS2_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -1886,12 +1895,12 @@ m 1
 decl (Decl
 n "SPI1_SS2_n"
 t "std_ulogic"
-o 22
+o 25
 suid 8,0
 )
 )
 )
-*166 (CptPort
+*168 (CptPort
 uid 264,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1901,7 +1910,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,12625,42750,13375"
+xt "41000,12625,41750,13375"
 )
 tg (CPTG
 uid 266,0
@@ -1911,10 +1920,10 @@ f (Text
 uid 267,0
 va (VaSet
 )
-xt "37000,12500,41000,13500"
+xt "36000,12500,40000,13500"
 st "SPI2_sClk"
 ju 2
-blo "41000,13300"
+blo "40000,13300"
 tm "CptPortNameMgr"
 )
 )
@@ -1923,7 +1932,7 @@ uid 268,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,28400,65000,29200"
+xt "44000,30000,65000,30800"
 st "SPI2_sClk        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -1931,12 +1940,12 @@ m 1
 decl (Decl
 n "SPI2_sClk"
 t "std_ulogic"
-o 34
+o 36
 suid 9,0
 )
 )
 )
-*167 (CptPort
+*169 (CptPort
 uid 269,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -1946,7 +1955,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,13625,42750,14375"
+xt "41000,13625,41750,14375"
 )
 tg (CPTG
 uid 271,0
@@ -1956,10 +1965,10 @@ f (Text
 uid 272,0
 va (VaSet
 )
-xt "36600,13500,41000,14500"
+xt "35600,13500,40000,14500"
 st "SPI2_MOSI"
 ju 2
-blo "41000,14300"
+blo "40000,14300"
 tm "CptPortNameMgr"
 )
 )
@@ -1968,7 +1977,7 @@ uid 273,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,25200,65000,26000"
+xt "44000,26800,65000,27600"
 st "SPI2_MOSI        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -1976,22 +1985,22 @@ m 1
 decl (Decl
 n "SPI2_MOSI"
 t "std_ulogic"
-o 30
+o 32
 suid 10,0
 )
 )
 )
-*168 (CptPort
+*170 (CptPort
 uid 274,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 275,0
-ro 90
+uid 941,0
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,14625,42750,15375"
+xt "41000,14625,41750,15375"
 )
 tg (CPTG
 uid 276,0
@@ -2001,10 +2010,10 @@ f (Text
 uid 277,0
 va (VaSet
 )
-xt "36600,14500,41000,15500"
+xt "35600,14500,40000,15500"
 st "SPI2_MISO"
 ju 2
-blo "41000,15300"
+blo "40000,15300"
 tm "CptPortNameMgr"
 )
 )
@@ -2013,20 +2022,19 @@ uid 278,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,24400,65000,25200"
-st "SPI2_MISO        : OUT    std_ulogic  ;"
+xt "44000,6800,65000,7600"
+st "SPI2_MISO        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
-m 1
 decl (Decl
 n "SPI2_MISO"
 t "std_ulogic"
-o 29
+o 7
 suid 11,0
 )
 )
 )
-*169 (CptPort
+*171 (CptPort
 uid 279,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2036,7 +2044,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,15625,42750,16375"
+xt "41000,15625,41750,16375"
 )
 tg (CPTG
 uid 281,0
@@ -2046,10 +2054,10 @@ f (Text
 uid 282,0
 va (VaSet
 )
-xt "36000,15500,41000,16500"
+xt "35000,15500,40000,16500"
 st "SPI2_SS1_n"
 ju 2
-blo "41000,16300"
+blo "40000,16300"
 tm "CptPortNameMgr"
 )
 )
@@ -2058,7 +2066,7 @@ uid 283,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,26000,65000,26800"
+xt "44000,27600,65000,28400"
 st "SPI2_SS1_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -2067,12 +2075,12 @@ m 1
 decl (Decl
 n "SPI2_SS1_n"
 t "std_ulogic"
-o 31
+o 33
 suid 12,0
 )
 )
 )
-*170 (CptPort
+*172 (CptPort
 uid 350,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2082,7 +2090,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,16625,42750,17375"
+xt "41000,22625,41750,23375"
 )
 tg (CPTG
 uid 352,0
@@ -2092,10 +2100,10 @@ f (Text
 uid 353,0
 va (VaSet
 )
-xt "37000,16500,41000,17500"
+xt "36000,22500,40000,23500"
 st "SPI3_sClk"
 ju 2
-blo "41000,17300"
+blo "40000,23300"
 tm "CptPortNameMgr"
 )
 )
@@ -2104,7 +2112,7 @@ uid 354,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,35600,65000,36400"
+xt "44000,36400,65000,37200"
 st "SPI3_sClk        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -2112,12 +2120,12 @@ m 1
 decl (Decl
 n "SPI3_sClk"
 t "std_ulogic"
-o 43
+o 44
 suid 13,0
 )
 )
 )
-*171 (CptPort
+*173 (CptPort
 uid 355,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2127,7 +2135,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,17625,42750,18375"
+xt "41000,23625,41750,24375"
 )
 tg (CPTG
 uid 357,0
@@ -2137,10 +2145,10 @@ f (Text
 uid 358,0
 va (VaSet
 )
-xt "36600,17500,41000,18500"
+xt "35600,23500,40000,24500"
 st "SPI3_MOSI"
 ju 2
-blo "41000,18300"
+blo "40000,24300"
 tm "CptPortNameMgr"
 )
 )
@@ -2149,7 +2157,7 @@ uid 359,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,31600,65000,32400"
+xt "44000,32400,65000,33200"
 st "SPI3_MOSI        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -2157,22 +2165,22 @@ m 1
 decl (Decl
 n "SPI3_MOSI"
 t "std_ulogic"
-o 38
+o 39
 suid 14,0
 )
 )
 )
-*172 (CptPort
+*174 (CptPort
 uid 360,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 361,0
-ro 90
+uid 942,0
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,18625,42750,19375"
+xt "41000,24625,41750,25375"
 )
 tg (CPTG
 uid 362,0
@@ -2182,10 +2190,10 @@ f (Text
 uid 363,0
 va (VaSet
 )
-xt "36600,18500,41000,19500"
+xt "35600,24500,40000,25500"
 st "SPI3_MISO"
 ju 2
-blo "41000,19300"
+blo "40000,25300"
 tm "CptPortNameMgr"
 )
 )
@@ -2194,20 +2202,19 @@ uid 364,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,30800,65000,31600"
-st "SPI3_MISO        : OUT    std_ulogic  ;"
+xt "44000,10000,65000,10800"
+st "SPI3_MISO        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
-m 1
 decl (Decl
 n "SPI3_MISO"
 t "std_ulogic"
-o 37
+o 11
 suid 15,0
 )
 )
 )
-*173 (CptPort
+*175 (CptPort
 uid 365,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2217,7 +2224,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,19625,42750,20375"
+xt "41000,25625,41750,26375"
 )
 tg (CPTG
 uid 367,0
@@ -2227,10 +2234,10 @@ f (Text
 uid 368,0
 va (VaSet
 )
-xt "36000,19500,41000,20500"
+xt "35000,25500,40000,26500"
 st "SPI3_SS1_n"
 ju 2
-blo "41000,20300"
+blo "40000,26300"
 tm "CptPortNameMgr"
 )
 )
@@ -2239,7 +2246,7 @@ uid 369,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,32400,65000,33200"
+xt "44000,33200,65000,34000"
 st "SPI3_SS1_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -2248,12 +2255,12 @@ m 1
 decl (Decl
 n "SPI3_SS1_n"
 t "std_ulogic"
-o 39
+o 40
 suid 16,0
 )
 )
 )
-*174 (CptPort
+*176 (CptPort
 uid 370,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2263,7 +2270,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,20625,42750,21375"
+xt "41000,26625,41750,27375"
 )
 tg (CPTG
 uid 372,0
@@ -2273,10 +2280,10 @@ f (Text
 uid 373,0
 va (VaSet
 )
-xt "36000,20500,41000,21500"
+xt "35000,26500,40000,27500"
 st "SPI3_SS2_n"
 ju 2
-blo "41000,21300"
+blo "40000,27300"
 tm "CptPortNameMgr"
 )
 )
@@ -2285,7 +2292,7 @@ uid 374,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,33200,65000,34000"
+xt "44000,34000,65000,34800"
 st "SPI3_SS2_n       : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -2294,12 +2301,12 @@ m 1
 decl (Decl
 n "SPI3_SS2_n"
 t "std_ulogic"
-o 40
+o 41
 suid 17,0
 )
 )
 )
-*175 (CptPort
+*177 (CptPort
 uid 375,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2309,7 +2316,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,21625,42750,22375"
+xt "41000,32625,41750,33375"
 )
 tg (CPTG
 uid 377,0
@@ -2319,10 +2326,10 @@ f (Text
 uid 378,0
 va (VaSet
 )
-xt "37000,21500,41000,22500"
+xt "36000,32500,40000,33500"
 st "SPI4_sClk"
 ju 2
-blo "41000,22300"
+blo "40000,33300"
 tm "CptPortNameMgr"
 )
 )
@@ -2344,7 +2351,7 @@ suid 18,0
 )
 )
 )
-*176 (CptPort
+*178 (CptPort
 uid 380,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2354,7 +2361,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,22625,42750,23375"
+xt "41000,33625,41750,34375"
 )
 tg (CPTG
 uid 382,0
@@ -2364,10 +2371,10 @@ f (Text
 uid 383,0
 va (VaSet
 )
-xt "36600,22500,41000,23500"
+xt "35600,33500,40000,34500"
 st "SPI4_MOSI"
 ju 2
-blo "41000,23300"
+blo "40000,34300"
 tm "CptPortNameMgr"
 )
 )
@@ -2389,17 +2396,17 @@ suid 19,0
 )
 )
 )
-*177 (CptPort
+*179 (CptPort
 uid 385,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 386,0
-ro 90
+uid 943,0
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,23625,42750,24375"
+xt "41000,34625,41750,35375"
 )
 tg (CPTG
 uid 387,0
@@ -2409,10 +2416,10 @@ f (Text
 uid 388,0
 va (VaSet
 )
-xt "36600,23500,41000,24500"
+xt "35600,34500,40000,35500"
 st "SPI4_MISO"
 ju 2
-blo "41000,24300"
+blo "40000,35300"
 tm "CptPortNameMgr"
 )
 )
@@ -2421,20 +2428,19 @@ uid 389,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,38000,65000,38800"
-st "SPI4_MISO        : OUT    std_ulogic  ;"
+xt "44000,14000,65000,14800"
+st "SPI4_MISO        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
-m 1
 decl (Decl
 n "SPI4_MISO"
 t "std_ulogic"
-o 46
+o 16
 suid 20,0
 )
 )
 )
-*178 (CptPort
+*180 (CptPort
 uid 390,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2444,7 +2450,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,24625,42750,25375"
+xt "41000,35625,41750,36375"
 )
 tg (CPTG
 uid 392,0
@@ -2454,10 +2460,10 @@ f (Text
 uid 393,0
 va (VaSet
 )
-xt "36000,24500,41000,25500"
+xt "35000,35500,40000,36500"
 st "SPI4_SS1_n"
 ju 2
-blo "41000,25300"
+blo "40000,36300"
 tm "CptPortNameMgr"
 )
 )
@@ -2480,7 +2486,7 @@ suid 21,0
 )
 )
 )
-*179 (CptPort
+*181 (CptPort
 uid 395,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2490,7 +2496,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,25625,42750,26375"
+xt "41000,36625,41750,37375"
 )
 tg (CPTG
 uid 397,0
@@ -2500,10 +2506,10 @@ f (Text
 uid 398,0
 va (VaSet
 )
-xt "36000,25500,41000,26500"
+xt "35000,36500,40000,37500"
 st "SPI4_SS2_n"
 ju 2
-blo "41000,26300"
+blo "40000,37300"
 tm "CptPortNameMgr"
 )
 )
@@ -2526,7 +2532,7 @@ suid 22,0
 )
 )
 )
-*180 (CptPort
+*182 (CptPort
 uid 474,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2536,7 +2542,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,8625,15000,9375"
+xt "14250,3625,15000,4375"
 )
 tg (CPTG
 uid 476,0
@@ -2546,9 +2552,9 @@ f (Text
 uid 477,0
 va (VaSet
 )
-xt "16000,8500,27800,9500"
+xt "16000,3500,27800,4500"
 st "SPI1_DataOut : (dataBitNb-1:0)"
-blo "16000,9300"
+blo "16000,4300"
 tm "CptPortNameMgr"
 )
 )
@@ -2570,30 +2576,29 @@ suid 23,0
 )
 )
 )
-*181 (CptPort
+*183 (CptPort
 uid 479,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 480,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,26625,42750,27375"
+xt "14250,5625,15000,6375"
 )
 tg (CPTG
 uid 481,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 482,0
 va (VaSet
 )
-xt "34500,26500,41000,27500"
+xt "16000,5500,22500,6500"
 st "SPI1_masterFull"
-ju 2
-blo "41000,27300"
+blo "16000,6300"
 tm "CptPortNameMgr"
 )
 )
@@ -2602,7 +2607,7 @@ uid 483,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,21200,65000,22000"
+xt "44000,23600,65000,24400"
 st "SPI1_masterFull  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -2610,12 +2615,12 @@ m 1
 decl (Decl
 n "SPI1_masterFull"
 t "std_ulogic"
-o 25
+o 28
 suid 24,0
 )
 )
 )
-*182 (CptPort
+*184 (CptPort
 uid 484,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2625,7 +2630,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,9625,15000,10375"
+xt "14250,4625,15000,5375"
 )
 tg (CPTG
 uid 486,0
@@ -2635,9 +2640,9 @@ f (Text
 uid 487,0
 va (VaSet
 )
-xt "16000,9500,20700,10500"
+xt "16000,4500,20700,5500"
 st "SPI1_Write"
-blo "16000,10300"
+blo "16000,5300"
 tm "CptPortNameMgr"
 )
 )
@@ -2646,42 +2651,41 @@ uid 488,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,4400,65000,5200"
+xt "44000,5200,65000,6000"
 st "SPI1_Write       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "SPI1_Write"
 t "std_ulogic"
-o 4
+o 5
 suid 25,0
 )
 )
 )
-*183 (CptPort
+*185 (CptPort
 uid 489,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 490,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,27625,42750,28375"
+xt "14250,6625,15000,7375"
 )
 tg (CPTG
 uid 491,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 492,0
 va (VaSet
 )
-xt "29800,27500,41000,28500"
+xt "16000,6500,27200,7500"
 st "SPI1_DataIn : (dataBitNb-1:0)"
-ju 2
-blo "41000,28300"
+blo "16000,7300"
 tm "CptPortNameMgr"
 )
 )
@@ -2690,7 +2694,7 @@ uid 493,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,15600,80000,16400"
+xt "44000,18800,80000,19600"
 st "SPI1_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -2699,35 +2703,34 @@ decl (Decl
 n "SPI1_DataIn"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 18
+o 22
 suid 26,0
 )
 )
 )
-*184 (CptPort
+*186 (CptPort
 uid 494,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 495,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,28625,42750,29375"
+xt "14250,8625,15000,9375"
 )
 tg (CPTG
 uid 496,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 497,0
 va (VaSet
 )
-xt "34200,28500,41000,29500"
+xt "16000,8500,22800,9500"
 st "SPI1_slaveEmpty"
-ju 2
-blo "41000,29300"
+blo "16000,9300"
 tm "CptPortNameMgr"
 )
 )
@@ -2736,7 +2739,7 @@ uid 498,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,22800,65000,23600"
+xt "44000,25200,65000,26000"
 st "SPI1_slaveEmpty  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -2744,12 +2747,12 @@ m 1
 decl (Decl
 n "SPI1_slaveEmpty"
 t "std_ulogic"
-o 27
+o 30
 suid 27,0
 )
 )
 )
-*185 (CptPort
+*187 (CptPort
 uid 499,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2759,7 +2762,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,10625,15000,11375"
+xt "14250,7625,15000,8375"
 )
 tg (CPTG
 uid 501,0
@@ -2769,9 +2772,9 @@ f (Text
 uid 502,0
 va (VaSet
 )
-xt "16000,10500,20200,11500"
+xt "16000,7500,20200,8500"
 st "SPI1_Read"
-blo "16000,11300"
+blo "16000,8300"
 tm "CptPortNameMgr"
 )
 )
@@ -2780,42 +2783,41 @@ uid 503,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,2800,65000,3600"
+xt "44000,3600,65000,4400"
 st "SPI1_Read        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "SPI1_Read"
 t "std_ulogic"
-o 2
+o 3
 suid 28,0
 )
 )
 )
-*186 (CptPort
+*188 (CptPort
 uid 504,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 505,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,29625,42750,30375"
+xt "14250,9625,15000,10375"
 )
 tg (CPTG
 uid 506,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 507,0
 va (VaSet
 )
-xt "34100,29500,41000,30500"
+xt "16000,9500,22900,10500"
 st "SPI1_endTransfer"
-ju 2
-blo "41000,30300"
+blo "16000,10300"
 tm "CptPortNameMgr"
 )
 )
@@ -2824,7 +2826,7 @@ uid 508,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,20400,64500,21200"
+xt "44000,22800,64500,23600"
 st "SPI1_endTransfer : OUT    std_logic  ;"
 )
 thePort (LogicalPort
@@ -2832,12 +2834,12 @@ m 1
 decl (Decl
 n "SPI1_endTransfer"
 t "std_logic"
-o 24
+o 27
 suid 29,0
 )
 )
 )
-*187 (CptPort
+*189 (CptPort
 uid 509,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2847,7 +2849,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,11625,15000,12375"
+xt "14250,13625,15000,14375"
 )
 tg (CPTG
 uid 511,0
@@ -2857,9 +2859,9 @@ f (Text
 uid 512,0
 va (VaSet
 )
-xt "16000,11500,27800,12500"
+xt "16000,13500,27800,14500"
 st "SPI2_DataOut : (dataBitNb-1:0)"
-blo "16000,12300"
+blo "16000,14300"
 tm "CptPortNameMgr"
 )
 )
@@ -2868,7 +2870,7 @@ uid 513,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,5200,80000,6000"
+xt "44000,6000,80000,6800"
 st "SPI2_DataOut     : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -2876,35 +2878,34 @@ decl (Decl
 n "SPI2_DataOut"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 5
+o 6
 suid 30,0
 )
 )
 )
-*188 (CptPort
+*190 (CptPort
 uid 514,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 515,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,30625,42750,31375"
+xt "14250,15625,15000,16375"
 )
 tg (CPTG
 uid 516,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 517,0
 va (VaSet
 )
-xt "34500,30500,41000,31500"
+xt "16000,15500,22500,16500"
 st "SPI2_masterFull"
-ju 2
-blo "41000,31300"
+blo "16000,16300"
 tm "CptPortNameMgr"
 )
 )
@@ -2913,7 +2914,7 @@ uid 518,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,27600,65000,28400"
+xt "44000,29200,65000,30000"
 st "SPI2_masterFull  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -2921,12 +2922,12 @@ m 1
 decl (Decl
 n "SPI2_masterFull"
 t "std_ulogic"
-o 33
+o 35
 suid 31,0
 )
 )
 )
-*189 (CptPort
+*191 (CptPort
 uid 519,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -2936,7 +2937,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,12625,15000,13375"
+xt "14250,14625,15000,15375"
 )
 tg (CPTG
 uid 521,0
@@ -2946,9 +2947,9 @@ f (Text
 uid 522,0
 va (VaSet
 )
-xt "16000,12500,20700,13500"
+xt "16000,14500,20700,15500"
 st "SPI2_Write"
-blo "16000,13300"
+blo "16000,15300"
 tm "CptPortNameMgr"
 )
 )
@@ -2957,42 +2958,41 @@ uid 523,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,6800,65000,7600"
+xt "44000,8400,65000,9200"
 st "SPI2_Write       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "SPI2_Write"
 t "std_ulogic"
-o 7
+o 9
 suid 32,0
 )
 )
 )
-*190 (CptPort
+*192 (CptPort
 uid 524,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 525,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,31625,42750,32375"
+xt "14250,16625,15000,17375"
 )
 tg (CPTG
 uid 526,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 527,0
 va (VaSet
 )
-xt "29800,31500,41000,32500"
+xt "16000,16500,27200,17500"
 st "SPI2_DataIn : (dataBitNb-1:0)"
-ju 2
-blo "41000,32300"
+blo "16000,17300"
 tm "CptPortNameMgr"
 )
 )
@@ -3001,7 +3001,7 @@ uid 528,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,23600,80000,24400"
+xt "44000,26000,80000,26800"
 st "SPI2_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -3010,35 +3010,34 @@ decl (Decl
 n "SPI2_DataIn"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 28
+o 31
 suid 33,0
 )
 )
 )
-*191 (CptPort
+*193 (CptPort
 uid 529,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 530,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,32625,42750,33375"
+xt "14250,18625,15000,19375"
 )
 tg (CPTG
 uid 531,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 532,0
 va (VaSet
 )
-xt "34200,32500,41000,33500"
+xt "16000,18500,22800,19500"
 st "SPI2_slaveEmpty"
-ju 2
-blo "41000,33300"
+blo "16000,19300"
 tm "CptPortNameMgr"
 )
 )
@@ -3047,7 +3046,7 @@ uid 533,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,29200,65000,30000"
+xt "44000,30800,65000,31600"
 st "SPI2_slaveEmpty  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -3055,12 +3054,12 @@ m 1
 decl (Decl
 n "SPI2_slaveEmpty"
 t "std_ulogic"
-o 35
+o 37
 suid 34,0
 )
 )
 )
-*192 (CptPort
+*194 (CptPort
 uid 534,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3070,7 +3069,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,13625,15000,14375"
+xt "14250,17625,15000,18375"
 )
 tg (CPTG
 uid 536,0
@@ -3080,9 +3079,9 @@ f (Text
 uid 537,0
 va (VaSet
 )
-xt "16000,13500,20200,14500"
+xt "16000,17500,20200,18500"
 st "SPI2_Read"
-blo "16000,14300"
+blo "16000,18300"
 tm "CptPortNameMgr"
 )
 )
@@ -3091,42 +3090,41 @@ uid 538,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,6000,65000,6800"
+xt "44000,7600,65000,8400"
 st "SPI2_Read        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "SPI2_Read"
 t "std_ulogic"
-o 6
+o 8
 suid 35,0
 )
 )
 )
-*193 (CptPort
+*195 (CptPort
 uid 539,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 540,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,33625,42750,34375"
+xt "14250,19625,15000,20375"
 )
 tg (CPTG
 uid 541,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 542,0
 va (VaSet
 )
-xt "34100,33500,41000,34500"
+xt "16000,19500,22900,20500"
 st "SPI2_endTransfer"
-ju 2
-blo "41000,34300"
+blo "16000,20300"
 tm "CptPortNameMgr"
 )
 )
@@ -3135,7 +3133,7 @@ uid 543,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,26800,64500,27600"
+xt "44000,28400,64500,29200"
 st "SPI2_endTransfer : OUT    std_logic  ;"
 )
 thePort (LogicalPort
@@ -3143,12 +3141,12 @@ m 1
 decl (Decl
 n "SPI2_endTransfer"
 t "std_logic"
-o 32
+o 34
 suid 36,0
 )
 )
 )
-*194 (CptPort
+*196 (CptPort
 uid 581,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3158,7 +3156,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,14625,15000,15375"
+xt "14250,22625,15000,23375"
 )
 tg (CPTG
 uid 583,0
@@ -3168,9 +3166,9 @@ f (Text
 uid 584,0
 va (VaSet
 )
-xt "16000,14500,27800,15500"
+xt "16000,22500,27800,23500"
 st "SPI3_DataOut : (dataBitNb-1:0)"
-blo "16000,15300"
+blo "16000,23300"
 tm "CptPortNameMgr"
 )
 )
@@ -3179,7 +3177,7 @@ uid 585,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,7600,80000,8400"
+xt "44000,9200,80000,10000"
 st "SPI3_DataOut     : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -3187,35 +3185,34 @@ decl (Decl
 n "SPI3_DataOut"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 8
+o 10
 suid 37,0
 )
 )
 )
-*195 (CptPort
+*197 (CptPort
 uid 586,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 587,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,34625,42750,35375"
+xt "14250,24625,15000,25375"
 )
 tg (CPTG
 uid 588,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 589,0
 va (VaSet
 )
-xt "34500,34500,41000,35500"
+xt "16000,24500,22500,25500"
 st "SPI3_masterFull"
-ju 2
-blo "41000,35300"
+blo "16000,25300"
 tm "CptPortNameMgr"
 )
 )
@@ -3224,7 +3221,7 @@ uid 590,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,34800,65000,35600"
+xt "44000,35600,65000,36400"
 st "SPI3_masterFull  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -3232,12 +3229,12 @@ m 1
 decl (Decl
 n "SPI3_masterFull"
 t "std_ulogic"
-o 42
+o 43
 suid 38,0
 )
 )
 )
-*196 (CptPort
+*198 (CptPort
 uid 591,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3247,7 +3244,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,15625,15000,16375"
+xt "14250,23625,15000,24375"
 )
 tg (CPTG
 uid 593,0
@@ -3257,9 +3254,9 @@ f (Text
 uid 594,0
 va (VaSet
 )
-xt "16000,15500,20700,16500"
+xt "16000,23500,20700,24500"
 st "SPI3_Write"
-blo "16000,16300"
+blo "16000,24300"
 tm "CptPortNameMgr"
 )
 )
@@ -3268,42 +3265,41 @@ uid 595,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,10000,65000,10800"
+xt "44000,12400,65000,13200"
 st "SPI3_Write       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "SPI3_Write"
 t "std_ulogic"
-o 11
+o 14
 suid 39,0
 )
 )
 )
-*197 (CptPort
+*199 (CptPort
 uid 596,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 597,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,35625,42750,36375"
+xt "14250,25625,15000,26375"
 )
 tg (CPTG
 uid 598,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 599,0
 va (VaSet
 )
-xt "29800,35500,41000,36500"
+xt "16000,25500,27200,26500"
 st "SPI3_DataIn : (dataBitNb-1:0)"
-ju 2
-blo "41000,36300"
+blo "16000,26300"
 tm "CptPortNameMgr"
 )
 )
@@ -3312,7 +3308,7 @@ uid 600,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,30000,80000,30800"
+xt "44000,31600,80000,32400"
 st "SPI3_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -3321,35 +3317,34 @@ decl (Decl
 n "SPI3_DataIn"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 36
+o 38
 suid 40,0
 )
 )
 )
-*198 (CptPort
+*200 (CptPort
 uid 601,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 602,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,36625,42750,37375"
+xt "14250,27625,15000,28375"
 )
 tg (CPTG
 uid 603,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 604,0
 va (VaSet
 )
-xt "34200,36500,41000,37500"
+xt "16000,27500,22800,28500"
 st "SPI3_slaveEmpty"
-ju 2
-blo "41000,37300"
+blo "16000,28300"
 tm "CptPortNameMgr"
 )
 )
@@ -3358,7 +3353,7 @@ uid 605,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,36400,65000,37200"
+xt "44000,37200,65000,38000"
 st "SPI3_slaveEmpty  : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
@@ -3366,12 +3361,12 @@ m 1
 decl (Decl
 n "SPI3_slaveEmpty"
 t "std_ulogic"
-o 44
+o 45
 suid 41,0
 )
 )
 )
-*199 (CptPort
+*201 (CptPort
 uid 606,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3381,7 +3376,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,16625,15000,17375"
+xt "14250,26625,15000,27375"
 )
 tg (CPTG
 uid 608,0
@@ -3391,9 +3386,9 @@ f (Text
 uid 609,0
 va (VaSet
 )
-xt "16000,16500,20200,17500"
+xt "16000,26500,20200,27500"
 st "SPI3_Read"
-blo "16000,17300"
+blo "16000,27300"
 tm "CptPortNameMgr"
 )
 )
@@ -3402,42 +3397,41 @@ uid 610,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,8400,65000,9200"
+xt "44000,10800,65000,11600"
 st "SPI3_Read        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "SPI3_Read"
 t "std_ulogic"
-o 9
+o 12
 suid 42,0
 )
 )
 )
-*200 (CptPort
+*202 (CptPort
 uid 611,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 612,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,37625,42750,38375"
+xt "14250,28625,15000,29375"
 )
 tg (CPTG
 uid 613,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 614,0
 va (VaSet
 )
-xt "34100,37500,41000,38500"
+xt "16000,28500,22900,29500"
 st "SPI3_endTransfer"
-ju 2
-blo "41000,38300"
+blo "16000,29300"
 tm "CptPortNameMgr"
 )
 )
@@ -3446,7 +3440,7 @@ uid 615,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,34000,64500,34800"
+xt "44000,34800,64500,35600"
 st "SPI3_endTransfer : OUT    std_logic  ;"
 )
 thePort (LogicalPort
@@ -3454,12 +3448,12 @@ m 1
 decl (Decl
 n "SPI3_endTransfer"
 t "std_logic"
-o 41
+o 42
 suid 43,0
 )
 )
 )
-*201 (CptPort
+*203 (CptPort
 uid 653,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3469,7 +3463,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,17625,15000,18375"
+xt "14250,32625,15000,33375"
 )
 tg (CPTG
 uid 655,0
@@ -3479,9 +3473,9 @@ f (Text
 uid 656,0
 va (VaSet
 )
-xt "16000,17500,27800,18500"
+xt "16000,32500,27800,33500"
 st "SPI4_DataOut : (dataBitNb-1:0)"
-blo "16000,18300"
+blo "16000,33300"
 tm "CptPortNameMgr"
 )
 )
@@ -3490,7 +3484,7 @@ uid 657,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,10800,80000,11600"
+xt "44000,13200,80000,14000"
 st "SPI4_DataOut     : IN     std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -3498,35 +3492,34 @@ decl (Decl
 n "SPI4_DataOut"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 12
+o 15
 suid 44,0
 )
 )
 )
-*202 (CptPort
+*204 (CptPort
 uid 658,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 659,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,38625,42750,39375"
+xt "14250,34625,15000,35375"
 )
 tg (CPTG
 uid 660,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 661,0
 va (VaSet
 )
-xt "34500,38500,41000,39500"
+xt "16000,34500,22500,35500"
 st "SPI4_masterFull"
-ju 2
-blo "41000,39300"
+blo "16000,35300"
 tm "CptPortNameMgr"
 )
 )
@@ -3548,7 +3541,7 @@ suid 45,0
 )
 )
 )
-*203 (CptPort
+*205 (CptPort
 uid 663,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3558,7 +3551,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,18625,15000,19375"
+xt "14250,33625,15000,34375"
 )
 tg (CPTG
 uid 665,0
@@ -3568,9 +3561,9 @@ f (Text
 uid 666,0
 va (VaSet
 )
-xt "16000,18500,20700,19500"
+xt "16000,33500,20700,34500"
 st "SPI4_Write"
-blo "16000,19300"
+blo "16000,34300"
 tm "CptPortNameMgr"
 )
 )
@@ -3579,42 +3572,41 @@ uid 667,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,13200,65000,14000"
+xt "44000,16400,65000,17200"
 st "SPI4_Write       : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "SPI4_Write"
 t "std_ulogic"
-o 15
+o 19
 suid 46,0
 )
 )
 )
-*204 (CptPort
+*206 (CptPort
 uid 668,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 669,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,39625,42750,40375"
+xt "14250,35625,15000,36375"
 )
 tg (CPTG
 uid 670,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 671,0
 va (VaSet
 )
-xt "29800,39500,41000,40500"
+xt "16000,35500,27200,36500"
 st "SPI4_DataIn : (dataBitNb-1:0)"
-ju 2
-blo "41000,40300"
+blo "16000,36300"
 tm "CptPortNameMgr"
 )
 )
@@ -3623,7 +3615,7 @@ uid 672,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,37200,80000,38000"
+xt "44000,38000,80000,38800"
 st "SPI4_DataIn      : OUT    std_ulogic_vector (dataBitNb-1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -3632,35 +3624,34 @@ decl (Decl
 n "SPI4_DataIn"
 t "std_ulogic_vector"
 b "(dataBitNb-1 DOWNTO 0)"
-o 45
+o 46
 suid 47,0
 )
 )
 )
-*205 (CptPort
+*207 (CptPort
 uid 673,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 674,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,40625,42750,41375"
+xt "14250,37625,15000,38375"
 )
 tg (CPTG
 uid 675,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 676,0
 va (VaSet
 )
-xt "34200,40500,41000,41500"
+xt "16000,37500,22800,38500"
 st "SPI4_slaveEmpty"
-ju 2
-blo "41000,41300"
+blo "16000,38300"
 tm "CptPortNameMgr"
 )
 )
@@ -3682,7 +3673,7 @@ suid 48,0
 )
 )
 )
-*206 (CptPort
+*208 (CptPort
 uid 678,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3692,7 +3683,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,19625,15000,20375"
+xt "14250,36625,15000,37375"
 )
 tg (CPTG
 uid 680,0
@@ -3702,9 +3693,9 @@ f (Text
 uid 681,0
 va (VaSet
 )
-xt "16000,19500,20200,20500"
+xt "16000,36500,20200,37500"
 st "SPI4_Read"
-blo "16000,20300"
+blo "16000,37300"
 tm "CptPortNameMgr"
 )
 )
@@ -3713,42 +3704,41 @@ uid 682,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,11600,65000,12400"
+xt "44000,14800,65000,15600"
 st "SPI4_Read        : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "SPI4_Read"
 t "std_ulogic"
-o 13
+o 17
 suid 49,0
 )
 )
 )
-*207 (CptPort
+*209 (CptPort
 uid 683,0
 ps "OnEdgeStrategy"
 shape (Triangle
 uid 684,0
-ro 90
+ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "42000,41625,42750,42375"
+xt "14250,38625,15000,39375"
 )
 tg (CPTG
 uid 685,0
 ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
+stg "VerticalLayoutStrategy"
 f (Text
 uid 686,0
 va (VaSet
 )
-xt "34100,41500,41000,42500"
+xt "16000,38500,22900,39500"
 st "SPI4_endTransfer"
-ju 2
-blo "41000,42300"
+blo "16000,39300"
 tm "CptPortNameMgr"
 )
 )
@@ -3770,7 +3760,7 @@ suid 50,0
 )
 )
 )
-*208 (CptPort
+*210 (CptPort
 uid 740,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3780,7 +3770,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,20625,15000,21375"
+xt "14250,10625,15000,11375"
 )
 tg (CPTG
 uid 742,0
@@ -3790,9 +3780,9 @@ f (Text
 uid 743,0
 va (VaSet
 )
-xt "16000,20500,23100,21500"
+xt "16000,10500,23100,11500"
 st "SPI1_Select : (1:0)"
-blo "16000,21300"
+blo "16000,11300"
 tm "CptPortNameMgr"
 )
 )
@@ -3801,7 +3791,7 @@ uid 744,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,3600,75000,4400"
+xt "44000,4400,75000,5200"
 st "SPI1_Select      : IN     std_ulogic_vector (1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -3810,12 +3800,12 @@ decl (Decl
 n "SPI1_Select"
 t "std_ulogic_vector"
 b "(1 DOWNTO 0)"
-o 3
+o 4
 suid 51,0
 )
 )
 )
-*209 (CptPort
+*211 (CptPort
 uid 745,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3825,7 +3815,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,21625,15000,22375"
+xt "14250,29625,15000,30375"
 )
 tg (CPTG
 uid 747,0
@@ -3835,9 +3825,9 @@ f (Text
 uid 748,0
 va (VaSet
 )
-xt "16000,21500,23100,22500"
+xt "16000,29500,23100,30500"
 st "SPI3_Select : (1:0)"
-blo "16000,22300"
+blo "16000,30300"
 tm "CptPortNameMgr"
 )
 )
@@ -3846,7 +3836,7 @@ uid 749,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,9200,75000,10000"
+xt "44000,11600,75000,12400"
 st "SPI3_Select      : IN     std_ulogic_vector (1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -3855,12 +3845,12 @@ decl (Decl
 n "SPI3_Select"
 t "std_ulogic_vector"
 b "(1 DOWNTO 0)"
-o 10
+o 13
 suid 52,0
 )
 )
 )
-*210 (CptPort
+*212 (CptPort
 uid 750,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -3870,7 +3860,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,22625,15000,23375"
+xt "14250,39625,15000,40375"
 )
 tg (CPTG
 uid 752,0
@@ -3880,9 +3870,9 @@ f (Text
 uid 753,0
 va (VaSet
 )
-xt "16000,22500,23100,23500"
+xt "16000,39500,23100,40500"
 st "SPI4_Select : (1:0)"
-blo "16000,23300"
+blo "16000,40300"
 tm "CptPortNameMgr"
 )
 )
@@ -3891,7 +3881,7 @@ uid 754,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "44000,12400,75000,13200"
+xt "44000,15600,75000,16400"
 st "SPI4_Select      : IN     std_ulogic_vector (1 DOWNTO 0) ;"
 )
 thePort (LogicalPort
@@ -3900,23 +3890,22 @@ decl (Decl
 n "SPI4_Select"
 t "std_ulogic_vector"
 b "(1 DOWNTO 0)"
-o 14
+o 18
 suid 53,0
 )
 )
 )
 ]
 shape (Rectangle
-uid 9,0
+uid 990,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,42000,43000"
+xt "15000,3000,41000,46000"
 )
-oxt "15000,6000,33000,26000"
 biTextGroup (BiTextGroup
 uid 10,0
 ps "CenterOffsetStrategy"
@@ -3926,21 +3915,21 @@ uid 11,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "22200,15000,24400,16000"
+xt "35200,42000,37400,43000"
 st "OBC"
-blo "22200,15800"
+blo "35200,42800"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "Arial,8,1"
 )
-xt "22200,16000,27500,17000"
+xt "35200,43000,40500,44000"
 st "SPI_Control"
-blo "22200,16800"
+blo "35200,43800"
 )
 )
-gi *211 (GenericInterface
+gi *213 (GenericInterface
 uid 13,0
 ps "CenterOffsetStrategy"
 matrix (Matrix
@@ -3950,13 +3939,21 @@ uid 15,0
 va (VaSet
 font "Courier New,8,0"
 )
-xt "0,12000,11500,12800"
-st "Generic Declarations"
+xt "0,12000,12000,14400"
+st "Generic Declarations
+
+dataBitNb integer 8  
+"
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
 )
 elements [
+(GiElement
+name "dataBitNb"
+type "integer"
+value "8"
+)
 ]
 )
 portInstanceVisAsIs 1
@@ -3967,10 +3964,10 @@ portVis (PortSigDisplay
 sIVOD 1
 )
 )
-*212 (Grouping
+*214 (Grouping
 uid 16,0
 optionalChildren [
-*213 (CommentText
+*215 (CommentText
 uid 18,0
 shape (Rectangle
 uid 19,0
@@ -4001,7 +3998,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*214 (CommentText
+*216 (CommentText
 uid 21,0
 shape (Rectangle
 uid 22,0
@@ -4032,7 +4029,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*215 (CommentText
+*217 (CommentText
 uid 24,0
 shape (Rectangle
 uid 25,0
@@ -4063,7 +4060,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*216 (CommentText
+*218 (CommentText
 uid 27,0
 shape (Rectangle
 uid 28,0
@@ -4094,7 +4091,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*217 (CommentText
+*219 (CommentText
 uid 30,0
 shape (Rectangle
 uid 31,0
@@ -4124,7 +4121,7 @@ visibleWidth 20000
 ignorePrefs 1
 titleBlock 1
 )
-*218 (CommentText
+*220 (CommentText
 uid 33,0
 shape (Rectangle
 uid 34,0
@@ -4155,7 +4152,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*219 (CommentText
+*221 (CommentText
 uid 36,0
 shape (Rectangle
 uid 37,0
@@ -4186,7 +4183,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*220 (CommentText
+*222 (CommentText
 uid 39,0
 shape (Rectangle
 uid 40,0
@@ -4217,7 +4214,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*221 (CommentText
+*223 (CommentText
 uid 42,0
 shape (Rectangle
 uid 43,0
@@ -4248,7 +4245,7 @@ position 1
 ignorePrefs 1
 titleBlock 1
 )
-*222 (CommentText
+*224 (CommentText
 uid 45,0
 shape (Rectangle
 uid 46,0
@@ -4304,11 +4301,11 @@ xShown 1
 yShown 1
 color "26368,26368,26368"
 )
-packageList *223 (PackageList
+packageList *225 (PackageList
 uid 48,0
 stg "VerticalLayoutStrategy"
 textVec [
-*224 (Text
+*226 (Text
 uid 49,0
 va (VaSet
 font "arial,8,1"
@@ -4317,7 +4314,7 @@ xt "0,0,5400,1000"
 st "Package List"
 blo "0,800"
 )
-*225 (MLText
+*227 (MLText
 uid 50,0
 va (VaSet
 )
@@ -4443,7 +4440,7 @@ st "<cell>"
 blo "22200,16800"
 )
 )
-gi *226 (GenericInterface
+gi *228 (GenericInterface
 ps "CenterOffsetStrategy"
 matrix (Matrix
 text (MLText
@@ -4542,7 +4539,7 @@ o 0
 )
 )
 )
-DeclarativeBlock *227 (SymDeclBlock
+DeclarativeBlock *229 (SymDeclBlock
 uid 1,0
 stg "SymDeclLayoutStrategy"
 declLabel (Text
@@ -4600,7 +4597,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 823,0
+lastUid 992,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"
